@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164;
+use ieee.std_logic_unsigned;
+
+entity generic_adder_8bit is
+	port(
+			A:in std_logic_vector(7 downto 0);
+			B:in std_logic_vector(7 downto 0);
+			c_in:in std_logic;
+			sum:out std_logic_vector(7 downto 0);
+			c_out:out std_logic
+		);
+end generic_adder;

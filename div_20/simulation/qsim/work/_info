@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\vhdlProjects\div_20\simulation\qsim
+vdiv_20
+Z1 I[]zg[OA:o64f_WUl3jlNb1
+Z2 VzCIHH?XB9OJ7>8dXW`def0
+Z3 dC:\Users\choug\vhdlProjects\div_20\simulation\qsim
+Z4 w1635571467
+Z5 8div_20.vo
+Z6 Fdiv_20.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 XVJgNEOlSOmbgGld50=2^3
+!s85 0
+Z10 !s108 1635571469.982000
+Z11 !s107 div_20.vo|
+Z12 !s90 -work|work|div_20.vo|
+!s101 -O0
+vdiv_20_vlg_check_tst
+!i10b 1
+!s100 mHbL`4AWmz]CoHB6QWhLJ0
+IMShj@U?;:99gF1jhdhS5O2
+VEMXUFW;nc5[;d]2aXZC5X1
+R3
+Z13 w1635571466
+Z14 8div_20_wave1.vwf.vt
+Z15 Fdiv_20_wave1.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1635571470.069000
+Z17 !s107 div_20_wave1.vwf.vt|
+Z18 !s90 -work|work|div_20_wave1.vwf.vt|
+!s101 -O0
+R8
+vdiv_20_vlg_sample_tst
+!i10b 1
+!s100 dg8mHmDUcGTc9h4ckKY0G1
+I_X:hb76InW]Jk_@P2gi6:3
+Vg08^jaP3<o5dEVH85VhXR3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vdiv_20_vlg_vec_tst
+!i10b 1
+!s100 ;`NIaI07Wj`10<7z7^1i<3
+IPIHazN]FE169I8AcFjehn1
+V;PR=iVZ4TTT^l:B8`C4eX2
+R3
+R13
+R14
+R15
+L0 154
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

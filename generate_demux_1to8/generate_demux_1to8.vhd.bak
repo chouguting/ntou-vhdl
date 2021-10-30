@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity generate_demux_1to8 is
+port(
+	D_in:in std_logic;
+	sel:in std_logic(2 downto 0); --選擇線
+	Y:out std_logic_vector(7 downto 0) --demux的輸出
+);
+end generate_demux_1to8;

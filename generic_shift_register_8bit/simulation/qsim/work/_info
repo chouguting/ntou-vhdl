@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\vhdlProjects\generic_shift_register_8bit\simulation\qsim
+vgeneric_shift_register_8bit
+Z1 !s100 eefWgaX@?63zoCRMD=2J<0
+Z2 IfEW4SYD`jfVZd07X@N<JN3
+Z3 VNGTeBEaU6HNE[YW87gcQ31
+Z4 dC:\Users\choug\vhdlProjects\generic_shift_register_8bit\simulation\qsim
+Z5 w1635598965
+Z6 8generic_shift_register_8bit.vo
+Z7 Fgeneric_shift_register_8bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|generic_shift_register_8bit.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1635598966.568000
+Z12 !s107 generic_shift_register_8bit.vo|
+!s101 -O0
+vgeneric_shift_register_8bit_vlg_check_tst
+!i10b 1
+Z13 !s100 gI`FZWQ0a2dbdUnU1aE7g0
+Z14 IMG>OI1TDC:2:e]zi;d8R03
+Z15 V4MZ6g4_LX5;N4@:BndU];3
+R4
+Z16 w1635598964
+Z17 8generic_shift_register_8bit_wave1.vwf.vt
+Z18 Fgeneric_shift_register_8bit_wave1.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1635598966.624000
+Z20 !s107 generic_shift_register_8bit_wave1.vwf.vt|
+Z21 !s90 -work|work|generic_shift_register_8bit_wave1.vwf.vt|
+!s101 -O0
+R10
+vgeneric_shift_register_8bit_vlg_sample_tst
+!i10b 1
+Z22 !s100 B;omoIXZQKQA]lB]iNVYR3
+Z23 IE=X8Rk46Ca4mAZ9aL^oXX0
+Z24 VHd7c>>1z5OlBiLCa?[aB;2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vgeneric_shift_register_8bit_vlg_vec_tst
+!i10b 1
+Z25 !s100 Me;dX7cOeaAMTaUeJ90]U1
+Z26 I2<mXS`V<XYAn=N4oMgMPb1
+Z27 V4DkFJ9CGI^BddP<IBE:nT3
+R4
+R16
+R17
+R18
+Z28 L0 283
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

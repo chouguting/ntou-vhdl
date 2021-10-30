@@ -1,0 +1,82 @@
+|generate_demux_1to8
+D_in => demux_1to2:demux_L1.D_in
+sel[0] => demux_1to2:L3:0:demux_L3.sel
+sel[0] => demux_1to2:L3:1:demux_L3.sel
+sel[0] => demux_1to2:L3:2:demux_L3.sel
+sel[0] => demux_1to2:L3:3:demux_L3.sel
+sel[1] => demux_1to2:L2:0:demux_L2.sel
+sel[1] => demux_1to2:L2:1:demux_L2.sel
+sel[2] => demux_1to2:demux_L1.sel
+Y[0] <= demux_1to2:L3:0:demux_L3.Y[0]
+Y[1] <= demux_1to2:L3:0:demux_L3.Y[1]
+Y[2] <= demux_1to2:L3:1:demux_L3.Y[0]
+Y[3] <= demux_1to2:L3:1:demux_L3.Y[1]
+Y[4] <= demux_1to2:L3:2:demux_L3.Y[0]
+Y[5] <= demux_1to2:L3:2:demux_L3.Y[1]
+Y[6] <= demux_1to2:L3:3:demux_L3.Y[0]
+Y[7] <= demux_1to2:L3:3:demux_L3.Y[1]
+
+
+|generate_demux_1to8|demux_1to2:demux_L1
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L2:0:demux_L2
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L2:1:demux_L2
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L3:0:demux_L3
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L3:1:demux_L3
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L3:2:demux_L3
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generate_demux_1to8|demux_1to2:\L3:3:demux_L3
+D_in => Y.DATAA
+D_in => Y.DATAB
+sel => Y.OUTPUTSELECT
+sel => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

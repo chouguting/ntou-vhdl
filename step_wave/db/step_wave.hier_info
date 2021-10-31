@@ -1,0 +1,19 @@
+|step_wave
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+F_out[0] <= Equal13.DB_MAX_OUTPUT_PORT_TYPE
+F_out[1] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[2] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[3] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[4] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[5] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[6] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+F_out[7] <= F_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,86 @@
+|BCD_cascading_counter_12bit
+clk => BCD_cascading_counter_4bit:counter1.clk
+clk => BCD_cascading_counter_4bit:counter2.clk
+clk => BCD_cascading_counter_4bit:counter3.clk
+reset => BCD_cascading_counter_4bit:counter1.reset
+reset => BCD_cascading_counter_4bit:counter2.reset
+reset => BCD_cascading_counter_4bit:counter3.reset
+casin => BCD_cascading_counter_4bit:counter1.casin
+count[0] << BCD_cascading_counter_4bit:counter1.count[0]
+count[1] << BCD_cascading_counter_4bit:counter1.count[1]
+count[2] << BCD_cascading_counter_4bit:counter1.count[2]
+count[3] << BCD_cascading_counter_4bit:counter1.count[3]
+count[4] << BCD_cascading_counter_4bit:counter2.count[0]
+count[5] << BCD_cascading_counter_4bit:counter2.count[1]
+count[6] << BCD_cascading_counter_4bit:counter2.count[2]
+count[7] << BCD_cascading_counter_4bit:counter2.count[3]
+count[8] << BCD_cascading_counter_4bit:counter3.count[0]
+count[9] << BCD_cascading_counter_4bit:counter3.count[1]
+count[10] << BCD_cascading_counter_4bit:counter3.count[2]
+count[11] << BCD_cascading_counter_4bit:counter3.count[3]
+casout <= BCD_cascading_counter_4bit:counter3.casout
+
+
+|BCD_cascading_counter_12bit|BCD_cascading_counter_4bit:counter1
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+casin => casout.IN1
+casin => count[0]~reg0.ENA
+casin => count[1]~reg0.ENA
+casin => count[2]~reg0.ENA
+casin => count[3]~reg0.ENA
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+casout <= casout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BCD_cascading_counter_12bit|BCD_cascading_counter_4bit:counter2
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+casin => casout.IN1
+casin => count[0]~reg0.ENA
+casin => count[1]~reg0.ENA
+casin => count[2]~reg0.ENA
+casin => count[3]~reg0.ENA
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+casout <= casout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BCD_cascading_counter_12bit|BCD_cascading_counter_4bit:counter3
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+reset => count[0]~reg0.ACLR
+reset => count[1]~reg0.ACLR
+reset => count[2]~reg0.ACLR
+reset => count[3]~reg0.ACLR
+casin => casout.IN1
+casin => count[0]~reg0.ENA
+casin => count[1]~reg0.ENA
+casin => count[2]~reg0.ENA
+casin => count[3]~reg0.ENA
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+casout <= casout.DB_MAX_OUTPUT_PORT_TYPE
+
+

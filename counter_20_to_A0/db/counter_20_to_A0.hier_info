@@ -1,0 +1,35 @@
+|counter_20_to_A0
+clk => output_num[0]~reg0.CLK
+clk => output_num[1]~reg0.CLK
+clk => output_num[2]~reg0.CLK
+clk => output_num[3]~reg0.CLK
+clk => output_num[4]~reg0.CLK
+clk => output_num[5]~reg0.CLK
+clk => output_num[6]~reg0.CLK
+clk => output_num[7]~reg0.CLK
+reset => output_num[0]~reg0.ACLR
+reset => output_num[1]~reg0.ACLR
+reset => output_num[2]~reg0.ACLR
+reset => output_num[3]~reg0.ACLR
+reset => output_num[4]~reg0.ACLR
+reset => output_num[5]~reg0.PRESET
+reset => output_num[6]~reg0.ACLR
+reset => output_num[7]~reg0.ACLR
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+up_or_down => output_num.OUTPUTSELECT
+output_num[0] << output_num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[1] << output_num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[2] << output_num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[3] << output_num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[4] << output_num[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[5] << output_num[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[6] << output_num[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_num[7] << output_num[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

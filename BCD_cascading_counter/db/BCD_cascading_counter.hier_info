@@ -1,0 +1,59 @@
+|BCD_cascading_counting_0_to_99
+cascade_out <= BCD_cascading_counter:inst1.cascade_out
+reset => BCD_cascading_counter:inst1.reset
+reset => BCD_cascading_counter:inst.reset
+clk => BCD_cascading_counter:inst1.clk
+clk => BCD_cascading_counter:inst.clk
+cascade_in => BCD_cascading_counter:inst.cascade_in
+Cout[0] <= BCD_cascading_counter:inst.Cout[0]
+Cout[1] <= BCD_cascading_counter:inst.Cout[1]
+Cout[2] <= BCD_cascading_counter:inst.Cout[2]
+Cout[3] <= BCD_cascading_counter:inst.Cout[3]
+Cout[4] <= BCD_cascading_counter:inst1.Cout[0]
+Cout[5] <= BCD_cascading_counter:inst1.Cout[1]
+Cout[6] <= BCD_cascading_counter:inst1.Cout[2]
+Cout[7] <= BCD_cascading_counter:inst1.Cout[3]
+
+
+|BCD_cascading_counting_0_to_99|BCD_cascading_counter:inst1
+reset => Cout[0]~reg0.ACLR
+reset => Cout[1]~reg0.ACLR
+reset => Cout[2]~reg0.ACLR
+reset => Cout[3]~reg0.ACLR
+clk => Cout[0]~reg0.CLK
+clk => Cout[1]~reg0.CLK
+clk => Cout[2]~reg0.CLK
+clk => Cout[3]~reg0.CLK
+cascade_in => cascade_out.IN1
+cascade_in => Cout[0]~reg0.ENA
+cascade_in => Cout[1]~reg0.ENA
+cascade_in => Cout[2]~reg0.ENA
+cascade_in => Cout[3]~reg0.ENA
+cascade_out <= cascade_out.DB_MAX_OUTPUT_PORT_TYPE
+Cout[0] <= Cout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[1] <= Cout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[2] <= Cout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[3] <= Cout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BCD_cascading_counting_0_to_99|BCD_cascading_counter:inst
+reset => Cout[0]~reg0.ACLR
+reset => Cout[1]~reg0.ACLR
+reset => Cout[2]~reg0.ACLR
+reset => Cout[3]~reg0.ACLR
+clk => Cout[0]~reg0.CLK
+clk => Cout[1]~reg0.CLK
+clk => Cout[2]~reg0.CLK
+clk => Cout[3]~reg0.CLK
+cascade_in => cascade_out.IN1
+cascade_in => Cout[0]~reg0.ENA
+cascade_in => Cout[1]~reg0.ENA
+cascade_in => Cout[2]~reg0.ENA
+cascade_in => Cout[3]~reg0.ENA
+cascade_out <= cascade_out.DB_MAX_OUTPUT_PORT_TYPE
+Cout[0] <= Cout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[1] <= Cout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[2] <= Cout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout[3] <= Cout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

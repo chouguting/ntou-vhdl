@@ -1,0 +1,19 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity adder_4bits is
+port(
+	A:in std_logic_vector(3 downto 0);
+	B:in std_logic_vector(3 downto 0);
+	S:out std_logic_vector(3 downto 0);
+	C:out std_logic;
+);
+end adder_4bits;
+
+architecture inside_adder of adder_4bits is
+begin
+	process(A,B)
+		C&S<=A+B;
+	end process;
+end inside_adder;

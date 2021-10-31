@@ -1,0 +1,36 @@
+library IEEE;
+use ieee.std_logic_1164;
+use ieee.std_logic_unsigned;
+
+entity counter_20_to_A0 is
+port(
+	clk:in std_logic;
+	reset:in std_logic;
+	up_or_down:in std_logic;
+	output:buffer std_logic_vector(7 downto 0);
+);
+end counter_20_to_A0;
+
+architecture counter of counter_20_to_A0 is
+begin
+	process(clk,reset,up_or_down)
+	begin
+		if(reset='0') then
+			output<=x"20";
+		elsif(rising_edge(clk)) then
+			if(up_or_down='0') then
+				if(output=x"A0") then
+					output<=x"20";
+				else
+					output<=output+1;
+				end if;
+			else
+				if(output=x"20") then
+					output<=x"A0";
+				else
+					output<=output-1;
+				end if;
+			end if;
+		end if;
+	end process;
+end counter;

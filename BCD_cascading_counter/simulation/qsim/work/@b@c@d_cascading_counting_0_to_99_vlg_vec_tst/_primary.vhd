@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity BCD_cascading_counting_0_to_99_vlg_vec_tst is
+end BCD_cascading_counting_0_to_99_vlg_vec_tst;

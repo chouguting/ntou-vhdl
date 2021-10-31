@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\counter_20_to_A0\simulation\qsim
+vcounter_20_to_A0
+Z1 !s100 ?Y0OA>?P]n0dnNJE?TnOR3
+Z2 I2RiHdjc>cn]IeDPKnioKf2
+Z3 V;km61ZGX>VoWSDFKfZUzb3
+Z4 dC:\Users\choug\fpgaProjects\counter_20_to_A0\simulation\qsim
+Z5 w1633849381
+Z6 8counter_20_to_A0.vo
+Z7 Fcounter_20_to_A0.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|counter_20_to_A0.vo|
+Z10 o-work work -O0
+Z11 ncounter_20_to_@a0
+!i10b 1
+!s85 0
+Z12 !s108 1633849381.788000
+Z13 !s107 counter_20_to_A0.vo|
+!s101 -O0
+vcounter_20_to_A0_vlg_check_tst
+!i10b 1
+Z14 !s100 Mbgn0?cn^YIg8BmUkdXdT2
+Z15 I4b4RfoSJhA1:k8T1oDX]B2
+Z16 Vg0JjB]`eh8ZeaMbm`?g<L3
+R4
+Z17 w1633849379
+Z18 8counter_20_to_A0_wave1.vwf.vt
+Z19 Fcounter_20_to_A0_wave1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1633849381.883000
+Z21 !s107 counter_20_to_A0_wave1.vwf.vt|
+Z22 !s90 -work|work|counter_20_to_A0_wave1.vwf.vt|
+!s101 -O0
+R10
+Z23 ncounter_20_to_@a0_vlg_check_tst
+vcounter_20_to_A0_vlg_sample_tst
+!i10b 1
+Z24 !s100 MQl8;4S;WQ=Tlam4dhbC`3
+Z25 ITOkHC>FNScaQ=U]NYj6b;0
+Z26 V?HDYP6`gj4X>@Y=AHW8Z`2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 ncounter_20_to_@a0_vlg_sample_tst
+vcounter_20_to_A0_vlg_vec_tst
+!i10b 1
+!s100 YQ76<:WL0?31X6XNfdGMm1
+IZ`7Lh9N:odY@9:19XbT3X1
+Z28 VU=L7[9SMNDIXGDF6_3WiI2
+R4
+R17
+R18
+R19
+Z29 L0 289
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 ncounter_20_to_@a0_vlg_vec_tst

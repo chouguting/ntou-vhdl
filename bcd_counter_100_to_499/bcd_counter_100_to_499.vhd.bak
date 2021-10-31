@@ -1,0 +1,58 @@
+--------------------------------
+--  00857005 周固廷  作業2-3   --
+--  3位數BCD上數器 (100~499)   --
+--------------------------------
+
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity bcd_counter_100_to_499 is
+	port(
+		clk;in std_logic;
+		reset:in std_logic;
+		output_num:buffer std_logic_vector(11 downto 0)
+	);
+
+end bcd_counter_100_to_499;
+
+architecture counter of bcd_counter_100_to_499 is
+signal carry:std_logic_vector(1 downto 0);
+begin
+	process(clk,reset,output_num)
+	begin
+		if(reset='0') then
+			output_num<=x"100";
+		elsif(rising_edge(clk)) then
+			if(output_num(3 downto 0)=x"9") then
+				output_num(3 downto 0)<=x"0";
+				carry(0)<='1';
+			else
+				output_num(3 downto 0)<=output_num(3 downto 0)+1;
+				carry(0)<='0';
+			end if;
+		end if;
+	end process;
+	
+	process(carry(0))
+	begin
+		if(rising_edge(carry(0))) then
+			if(output_num(7 downto 4)=x"9") then
+				output_num(7 downto 4)<=x"0";
+				carry(1)<='1';
+			else
+				output_num(7 downto 4)<=output_num(7 downto 4)+1;
+				carry(1)<='0';
+			end if;
+	end process;
+	
+	process(carry(1))
+	begin
+		if(rising_edge(carry(1))) then
+			if(output_num(11 downto 8)=x"4") then
+				output_num(11 downto 8)<=x"0";
+			else
+				output_num(11 downto 8)<=output_num(11 downto 8)+1;
+			end if;
+	end process;
+end counter;

@@ -1,0 +1,39 @@
+|bcd_counter_100_to_499
+clk => num_2[0].CLK
+clk => num_2[1].CLK
+clk => num_2[2].CLK
+clk => num_2[3].CLK
+clk => num_1[0].CLK
+clk => num_1[1].CLK
+clk => num_1[2].CLK
+clk => num_1[3].CLK
+clk => num_0[0].CLK
+clk => num_0[1].CLK
+clk => num_0[2].CLK
+clk => num_0[3].CLK
+reset => num_2[0].PRESET
+reset => num_2[1].ACLR
+reset => num_2[2].ACLR
+reset => num_2[3].ACLR
+reset => num_1[0].ACLR
+reset => num_1[1].ACLR
+reset => num_1[2].ACLR
+reset => num_1[3].ACLR
+reset => num_0[0].ACLR
+reset => num_0[1].ACLR
+reset => num_0[2].ACLR
+reset => num_0[3].ACLR
+output_num[0] <= num_0[0].DB_MAX_OUTPUT_PORT_TYPE
+output_num[1] <= num_0[1].DB_MAX_OUTPUT_PORT_TYPE
+output_num[2] <= num_0[2].DB_MAX_OUTPUT_PORT_TYPE
+output_num[3] <= num_0[3].DB_MAX_OUTPUT_PORT_TYPE
+output_num[4] <= num_1[0].DB_MAX_OUTPUT_PORT_TYPE
+output_num[5] <= num_1[1].DB_MAX_OUTPUT_PORT_TYPE
+output_num[6] <= num_1[2].DB_MAX_OUTPUT_PORT_TYPE
+output_num[7] <= num_1[3].DB_MAX_OUTPUT_PORT_TYPE
+output_num[8] <= num_2[0].DB_MAX_OUTPUT_PORT_TYPE
+output_num[9] <= num_2[1].DB_MAX_OUTPUT_PORT_TYPE
+output_num[10] <= num_2[2].DB_MAX_OUTPUT_PORT_TYPE
+output_num[11] <= num_2[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

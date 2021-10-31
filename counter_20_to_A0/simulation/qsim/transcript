@@ -1,0 +1,52 @@
+# do counter_20_to_A0.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_20_to_A0
+# 
+# Top level modules:
+# 	counter_20_to_A0
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_20_to_A0_vlg_sample_tst
+# -- Compiling module counter_20_to_A0_vlg_check_tst
+# -- Compiling module counter_20_to_A0_vlg_vec_tst
+# 
+# Top level modules:
+# 	counter_20_to_A0_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.counter_20_to_A0_vlg_vec_tst 
+# Loading work.counter_20_to_A0_vlg_vec_tst
+# Loading work.counter_20_to_A0
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.counter_20_to_A0_vlg_sample_tst
+# Loading work.counter_20_to_A0_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port output_num[1] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10000010
+# ERROR! Vector Mismatch for output port output_num[7] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10000010
+# ERROR! Vector Mismatch for output port output_num[0] :: @time = 1010000.000 ps
+#      Expected value = 00000000
+#      Real value = 10000011
+# ERROR! Vector Mismatch for output port output_num[2] :: @time = 1020000.000 ps
+#      Expected value = 00000000
+#      Real value = 10000100
+# ERROR! Vector Mismatch for output port output_num[3] :: @time = 1060000.000 ps
+#      Expected value = 00000000
+#      Real value = 10001000
+# ERROR! Vector Mismatch for output port output_num[4] :: @time = 1140000.000 ps
+#      Expected value = 00000000
+#      Real value = 10010000
+# ERROR! Vector Mismatch for output port output_num[5] :: @time = 1300000.000 ps
+#      Expected value = 00000000
+#      Real value = 10100000
+# ERROR! Vector Mismatch for output port output_num[6] :: @time = 1990000.000 ps
+#      Expected value = 00000000
+#      Real value = 01111111
+#           8 mismatched vectors : Simulation failed !
+# ** Note: $finish    : counter_20_to_A0_wave1.vwf.vt(285)
+#    Time: 5 us  Iteration: 0  Instance: /counter_20_to_A0_vlg_vec_tst/tb_out

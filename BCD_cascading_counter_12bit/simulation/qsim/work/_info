@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\BCD_cascading_counter_12bit\simulation\qsim
+vBCD_cascading_counter_12bit
+Z1 !s100 4CbR_i<lW@V79?FQ9jYJ]1
+Z2 Iobh5UM44kVD2H>]?SL^3g2
+Z3 VQi;SU>OSO?8i0oo]PzCV21
+Z4 dC:\Users\choug\fpgaProjects\BCD_cascading_counter_12bit\simulation\qsim
+Z5 w1634992679
+Z6 8BCD_cascading_counter_12bit.vo
+Z7 FBCD_cascading_counter_12bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|BCD_cascading_counter_12bit.vo|
+Z10 o-work work -O0
+Z11 n@b@c@d_cascading_counter_12bit
+!i10b 1
+!s85 0
+Z12 !s108 1634992679.847000
+Z13 !s107 BCD_cascading_counter_12bit.vo|
+!s101 -O0
+vBCD_cascading_counter_12bit_vlg_check_tst
+!i10b 1
+Z14 !s100 JhV24>Gh3@0Egm5DXkCWO2
+Z15 I>d@`LAb5oF<[dzT];`_cL0
+Z16 VY]khST6jC[?^@aOg3^]IH2
+R4
+Z17 w1634992677
+Z18 8BCD_cascading_counter_12bit.vwf.vt
+Z19 FBCD_cascading_counter_12bit.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1634992679.910000
+Z21 !s107 BCD_cascading_counter_12bit.vwf.vt|
+Z22 !s90 -work|work|BCD_cascading_counter_12bit.vwf.vt|
+!s101 -O0
+R10
+Z23 n@b@c@d_cascading_counter_12bit_vlg_check_tst
+vBCD_cascading_counter_12bit_vlg_sample_tst
+!i10b 1
+Z24 !s100 P]=<@]M1ZS:;;nlz4Xbj^1
+Z25 I_0jP2c1_[Gn<S9C0Cgnma1
+Z26 V7ZjgP>O@dm1PWVe:eE6if1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@b@c@d_cascading_counter_12bit_vlg_sample_tst
+vBCD_cascading_counter_12bit_vlg_vec_tst
+!i10b 1
+Z28 !s100 Nk6DcGH[<4iI2fMLFG^ei3
+Z29 IPZRZ?I<WV0]RTVcK5>W;g2
+Z30 VoOB>Hg?jnifURfbSi^MY;0
+R4
+R17
+R18
+R19
+Z31 L0 393
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@b@c@d_cascading_counter_12bit_vlg_vec_tst

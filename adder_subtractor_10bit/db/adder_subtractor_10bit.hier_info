@@ -1,0 +1,131 @@
+|adder_subtractor_10bit
+X[0] => adder_subtractor_4bit:adder1.X[0]
+X[1] => adder_subtractor_4bit:adder1.X[1]
+X[2] => adder_subtractor_4bit:adder1.X[2]
+X[3] => adder_subtractor_4bit:adder1.X[3]
+X[4] => adder_subtractor_4bit:adder2.X[0]
+X[5] => adder_subtractor_4bit:adder2.X[1]
+X[6] => adder_subtractor_4bit:adder2.X[2]
+X[7] => adder_subtractor_4bit:adder2.X[3]
+X[8] => adder_subtractor_4bit:adder3.X[0]
+X[9] => adder_subtractor_4bit:adder3.X[1]
+Y[0] => adder_subtractor_4bit:adder1.Y[0]
+Y[1] => adder_subtractor_4bit:adder1.Y[1]
+Y[2] => adder_subtractor_4bit:adder1.Y[2]
+Y[3] => adder_subtractor_4bit:adder1.Y[3]
+Y[4] => adder_subtractor_4bit:adder2.Y[0]
+Y[5] => adder_subtractor_4bit:adder2.Y[1]
+Y[6] => adder_subtractor_4bit:adder2.Y[2]
+Y[7] => adder_subtractor_4bit:adder2.Y[3]
+Y[8] => adder_subtractor_4bit:adder3.Y[0]
+Y[9] => adder_subtractor_4bit:adder3.Y[1]
+C_in => adder_subtractor_4bit:adder1.C_in
+Mode => adder_subtractor_4bit:adder1.Mode
+Mode => adder_subtractor_4bit:adder2.Mode
+Mode => adder_subtractor_4bit:adder3.Mode
+S[0] << adder_subtractor_4bit:adder1.S[0]
+S[1] << adder_subtractor_4bit:adder1.S[1]
+S[2] << adder_subtractor_4bit:adder1.S[2]
+S[3] << adder_subtractor_4bit:adder1.S[3]
+S[4] << adder_subtractor_4bit:adder2.S[0]
+S[5] << adder_subtractor_4bit:adder2.S[1]
+S[6] << adder_subtractor_4bit:adder2.S[2]
+S[7] << adder_subtractor_4bit:adder2.S[3]
+S[8] << adder_subtractor_4bit:adder3.S[0]
+S[9] << adder_subtractor_4bit:adder3.S[1]
+C_out << adder_subtractor_4bit:adder3.S[2]
+
+
+|adder_subtractor_10bit|adder_subtractor_4bit:adder1
+X[0] => Add0.IN4
+X[0] => Add2.IN8
+X[1] => Add0.IN3
+X[1] => Add2.IN7
+X[2] => Add0.IN2
+X[2] => Add2.IN6
+X[3] => Add0.IN1
+X[3] => Add2.IN5
+Y[0] => Add0.IN8
+Y[0] => Add2.IN4
+Y[1] => Add0.IN7
+Y[1] => Add2.IN3
+Y[2] => Add0.IN6
+Y[2] => Add2.IN2
+Y[3] => Add0.IN5
+Y[3] => Add2.IN1
+C_in => Add1.IN10
+C_in => Add3.IN10
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+S[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_subtractor_10bit|adder_subtractor_4bit:adder2
+X[0] => Add0.IN4
+X[0] => Add2.IN8
+X[1] => Add0.IN3
+X[1] => Add2.IN7
+X[2] => Add0.IN2
+X[2] => Add2.IN6
+X[3] => Add0.IN1
+X[3] => Add2.IN5
+Y[0] => Add0.IN8
+Y[0] => Add2.IN4
+Y[1] => Add0.IN7
+Y[1] => Add2.IN3
+Y[2] => Add0.IN6
+Y[2] => Add2.IN2
+Y[3] => Add0.IN5
+Y[3] => Add2.IN1
+C_in => Add1.IN10
+C_in => Add3.IN10
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+S[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_subtractor_10bit|adder_subtractor_4bit:adder3
+X[0] => Add0.IN4
+X[0] => Add2.IN8
+X[1] => Add0.IN3
+X[1] => Add2.IN7
+X[2] => Add0.IN2
+X[2] => Add2.IN6
+X[3] => Add0.IN1
+X[3] => Add2.IN5
+Y[0] => Add0.IN8
+Y[0] => Add2.IN4
+Y[1] => Add0.IN7
+Y[1] => Add2.IN3
+Y[2] => Add0.IN6
+Y[2] => Add2.IN2
+Y[3] => Add0.IN5
+Y[3] => Add2.IN1
+C_in => Add1.IN10
+C_in => Add3.IN10
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+Mode => temp.OUTPUTSELECT
+S[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+C_out <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

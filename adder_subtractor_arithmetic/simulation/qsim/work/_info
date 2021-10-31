@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\adder_subtractor_arithmetic\simulation\qsim
+vadder_subtractor_arithmetic
+Z1 !s100 T`aS5C3KzhYACdlTjMc<L3
+Z2 IJ>;CG]S]@aTnJELbd5T;m1
+Z3 VodJQe[UWVE]lJWFmOjRoI0
+Z4 dC:\Users\choug\fpgaProjects\adder_subtractor_arithmetic\simulation\qsim
+Z5 w1633182038
+Z6 8adder_subtractor_arithmetic.vo
+Z7 Fadder_subtractor_arithmetic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|adder_subtractor_arithmetic.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1633182039.560000
+Z12 !s107 adder_subtractor_arithmetic.vo|
+!s101 -O0
+vadder_subtractor_arithmetic_vlg_check_tst
+!i10b 1
+!s100 m85PhSX`OGST<Na3<;O1>3
+I0_>6IO0j0o0V9DeQnk4zF0
+Z13 V=AkBTVOOzUS4ggML1XzaI2
+R4
+Z14 w1633182037
+Z15 8adder_subtractor_arithmetic_wave1.vwf.vt
+Z16 Fadder_subtractor_arithmetic_wave1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z17 !s108 1633182039.670000
+Z18 !s107 adder_subtractor_arithmetic_wave1.vwf.vt|
+Z19 !s90 -work|work|adder_subtractor_arithmetic_wave1.vwf.vt|
+!s101 -O0
+R10
+vadder_subtractor_arithmetic_vlg_sample_tst
+!i10b 1
+Z20 !s100 4]c]gzZA=:Em6W1R;`BEW1
+Z21 I<C_5Yj8U]C>@PQCn1lekW1
+Z22 V?;8C6Y6Tc<hK72>[^ifVI3
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vadder_subtractor_arithmetic_vlg_vec_tst
+!i10b 1
+!s100 QloclE;;ERf28gAe^]1962
+IB@^VoHe=P;ZdE`N8fV;DG2
+Z23 VGlJ:da_MG7D=KKiY_>JK=3
+R4
+R14
+R15
+R16
+L0 241
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

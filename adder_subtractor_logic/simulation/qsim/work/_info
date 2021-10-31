@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\adder_subtractor_logic\simulation\qsim
+vadder_subtractor_logic
+Z1 !s100 OGQMb3SZCW??P_]if7Z720
+Z2 IS9CzZ9lTd:Q?U2jTkmJOP2
+Z3 V>=RF?NW_m`fP1nNZbb@[30
+Z4 dC:\Users\choug\fpgaProjects\adder_subtractor_logic\simulation\qsim
+Z5 w1633182902
+Z6 8adder_subtractor_logic.vo
+Z7 Fadder_subtractor_logic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|adder_subtractor_logic.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1633182903.198000
+Z12 !s107 adder_subtractor_logic.vo|
+!s101 -O0
+vadder_subtractor_logic_vlg_check_tst
+!i10b 1
+!s100 O]o3MgVd3ka?mCDRC^kG;2
+IjTFm54L2WH?0mT`Ae7e[G2
+Z13 VJJ:XX=H<9EnlYY1RmBajG3
+R4
+Z14 w1633182901
+Z15 8adder_subtractor_logic_wave1.vwf.vt
+Z16 Fadder_subtractor_logic_wave1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z17 !s108 1633182903.282000
+Z18 !s107 adder_subtractor_logic_wave1.vwf.vt|
+Z19 !s90 -work|work|adder_subtractor_logic_wave1.vwf.vt|
+!s101 -O0
+R10
+vadder_subtractor_logic_vlg_sample_tst
+!i10b 1
+Z20 !s100 7Jo0hJ<77AY=R^<8=189M0
+Z21 IT2QFSe?Nz]<2FHDo4[eMa0
+Z22 Vfi=01Qio6m2PAmFnizZ@g3
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vadder_subtractor_logic_vlg_vec_tst
+!i10b 1
+!s100 7j9oFWC>2ee9@kDF;7LlL1
+IX3I67h@]D4GO5iIJn7>K51
+Z23 Vd5Fz8lG:iW?hRdzYbjCF[3
+R4
+R14
+R15
+R16
+L0 241
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

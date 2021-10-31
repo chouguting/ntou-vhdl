@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\adder_subtractor_10bit\simulation\qsim
+vadder_subtractor_10bit
+Z1 !s100 L6YMdBoZAK4PS?KJM]SPA1
+Z2 I`7@:1G<8AL5Z]Qi7JgZdK0
+Z3 ViSKTDkDdLNi^g01a11;kf1
+Z4 dC:\Users\choug\fpgaProjects\adder_subtractor_10bit\simulation\qsim
+Z5 w1634992650
+Z6 8adder_subtractor_10bit.vo
+Z7 Fadder_subtractor_10bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|adder_subtractor_10bit.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1634992650.970000
+Z12 !s107 adder_subtractor_10bit.vo|
+!s101 -O0
+vadder_subtractor_10bit_vlg_check_tst
+!i10b 1
+Z13 !s100 9c3zXdmhNWnZoXhSia`DG0
+Z14 I@Pck^Y>?i^eFNoOTH8iYZ2
+Z15 VT94FYVT5XgnWK37MiTI`f2
+R4
+Z16 w1634992648
+Z17 8adder_subtractor_10bit_wave1.vwf.vt
+Z18 Fadder_subtractor_10bit_wave1.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1634992651.048000
+Z20 !s107 adder_subtractor_10bit_wave1.vwf.vt|
+Z21 !s90 -work|work|adder_subtractor_10bit_wave1.vwf.vt|
+!s101 -O0
+R10
+vadder_subtractor_10bit_vlg_sample_tst
+!i10b 1
+Z22 !s100 C<eMf2dbO^G3Bhm6XdzF91
+Z23 I]Ln>THiOEUJgD_Vm3]F>63
+Z24 V6id4^`WC0:VbeLELPmSCR0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vadder_subtractor_10bit_vlg_vec_tst
+!i10b 1
+Z25 !s100 Sf8?zRV]mIjjET74g7^l00
+Z26 IN6G>H@_LGm:bTBS`eC9TC1
+Z27 V_aHWh331VU?ndeM2in9Tc1
+R4
+R16
+R17
+R18
+Z28 L0 346
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

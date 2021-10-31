@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\BCD_cascading_counter\simulation\qsim
+vBCD_cascading_counter
+Z1 !s100 dfW<?MM;Hj<:CCHVSXJoK3
+Z2 I1^V54ePCYiBc<L0d]WYTe2
+Z3 VNCVjKPZVoD9QV`>]R6Phf3
+Z4 dC:\Users\choug\fpgaProjects\BCD_cascading_counter\simulation\qsim
+Z5 w1634451829
+Z6 8BCD_cascading_counter.vo
+Z7 FBCD_cascading_counter.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|BCD_cascading_counter.vo|
+Z10 o-work work -O0
+Z11 n@b@c@d_cascading_counter
+Z12 !s108 1634451830.560000
+Z13 !s107 BCD_cascading_counter.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vBCD_cascading_counter_vlg_check_tst
+Z14 !s100 JQXS^>GP2YVKI6NjK5k`L2
+Z15 I_Eolj69OlS;lPB=nhGo:O2
+Z16 VFB8maWL]]IASHBJHYj62@3
+R4
+Z17 w1634451828
+Z18 8BCD_cascading_counter_wave1.vwf.vt
+Z19 FBCD_cascading_counter_wave1.vwf.vt
+L0 61
+R8
+r1
+31
+Z20 !s108 1634451830.621000
+Z21 !s107 BCD_cascading_counter_wave1.vwf.vt|
+Z22 !s90 -work|work|BCD_cascading_counter_wave1.vwf.vt|
+R10
+Z23 n@b@c@d_cascading_counter_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vBCD_cascading_counter_vlg_sample_tst
+Z24 !s100 LC]7JoQQ]k_I>Y<3c<knz1
+Z25 I@1`oog@>?e0UHObkePXd`0
+Z26 V7O1g1gfP;3zMLhK>b9>Gk1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@b@c@d_cascading_counter_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vBCD_cascading_counter_vlg_vec_tst
+Z28 !s100 Mm;8SLhbA>]2Dd_4N7Tei0
+Z29 I;Xb=`d`AncP[SCoZ4VD]51
+Z30 Vi8OjF:]7_kZZ1>ZNJ9I2S2
+R4
+R17
+R18
+R19
+Z31 L0 236
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@b@c@d_cascading_counter_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vBCD_cascading_counting_0_to_99
+Z33 !s100 QnA7EWVRUi731D^oaoKP<2
+Z34 IiRJU[PHcoh[_NC4W]T[ck2
+Z35 VSOh;UHFA[iXDc:oifhX702
+R4
+Z36 w1634451957
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z37 n@b@c@d_cascading_counting_0_to_99
+!i10b 1
+!s85 0
+Z38 !s108 1634451958.515000
+R13
+!s101 -O0
+vBCD_cascading_counting_0_to_99_vlg_check_tst
+!i10b 1
+Z39 !s100 SDgKWK?XV[>Jh<C5GmGoT1
+Z40 IHhO@=;jWGMo?hH@N03WCL1
+Z41 VOBJU^IZ7A[79a8P2OW2Oe2
+R4
+Z42 w1634451956
+Z43 8BCD_cascading_counter_0_to_99_wave1.vwf.vt
+Z44 FBCD_cascading_counter_0_to_99_wave1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z45 !s108 1634451958.584000
+Z46 !s107 BCD_cascading_counter_0_to_99_wave1.vwf.vt|
+Z47 !s90 -work|work|BCD_cascading_counter_0_to_99_wave1.vwf.vt|
+!s101 -O0
+R10
+Z48 n@b@c@d_cascading_counting_0_to_99_vlg_check_tst
+vBCD_cascading_counting_0_to_99_vlg_sample_tst
+!i10b 1
+Z49 !s100 EfAlCzK5clI:oA0:8n?Yj0
+Z50 I4d=7V@^:?;GT?n8403>CE2
+Z51 VDWdFjCAml`gaj9jzak4M<3
+R4
+R42
+R43
+R44
+L0 29
+R8
+r1
+!s85 0
+31
+R45
+R46
+R47
+!s101 -O0
+R10
+Z52 n@b@c@d_cascading_counting_0_to_99_vlg_sample_tst
+vBCD_cascading_counting_0_to_99_vlg_vec_tst
+!i10b 1
+Z53 !s100 854N5@MPE8N>:e:i^Lckn3
+Z54 I`gMR^i;NJ`c;gYeVgNBDG3
+Z55 VT0E`2zb2ojPz>E_EZkgaH0
+R4
+R42
+R43
+R44
+Z56 L0 308
+R8
+r1
+!s85 0
+31
+R45
+R46
+R47
+!s101 -O0
+R10
+Z57 n@b@c@d_cascading_counting_0_to_99_vlg_vec_tst

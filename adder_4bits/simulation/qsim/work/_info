@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\adder_4bits\simulation\qsim
+vadder_4bits
+Z1 I;EMno::^QjYcLEW1_NX151
+Z2 VQoZVV7cSEE4XfQe052g6S0
+Z3 dC:\Users\choug\fpgaProjects\adder_4bits\simulation\qsim
+Z4 w1633847396
+Z5 8adder_4bits.vo
+Z6 Fadder_4bits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 TAPS1dDo43:XLFK>m1zOS1
+!s85 0
+Z10 !s108 1633847398.711000
+Z11 !s107 adder_4bits.vo|
+Z12 !s90 -work|work|adder_4bits.vo|
+!s101 -O0
+vadder_4bits_vlg_check_tst
+!i10b 1
+!s100 24XGd4UKld7l;IK`Tnh>M2
+ILNZD^FOZzhWmTa:m_]U6R0
+VRcDSHXSjNk2jV:WS>WS4;1
+R3
+Z13 w1633847395
+Z14 8adder_4bits_wave1.vwf.vt
+Z15 Fadder_4bits_wave1.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1633847398.790000
+Z17 !s107 adder_4bits_wave1.vwf.vt|
+Z18 !s90 -work|work|adder_4bits_wave1.vwf.vt|
+!s101 -O0
+R8
+vadder_4bits_vlg_sample_tst
+!i10b 1
+!s100 HHG9N6h?]FS7Q[X;VWo_L2
+IUfl6Je[m0n>=[maVoAm0E3
+V7F:lz?@ifK]Q8f:dH@KYU2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vadder_4bits_vlg_vec_tst
+!i10b 1
+!s100 M7[Ra>1kC>OU`?bf4Z?B@2
+I@^iD>;@fGjC@N`6gi1IYK2
+V`dJ815i36?Bm_Q]M2Y3U80
+R3
+R13
+R14
+R15
+L0 234
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

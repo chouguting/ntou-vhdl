@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\adder_14bits\simulation\qsim
+vadder_14bits
+Z1 !s100 Q2VA<b93UgBZ27i5Jj?Te2
+Z2 ITaYcEIjhg6BeP5C6McAaL2
+Z3 V9TSA5]g?W2`@HdN`:zUaM2
+Z4 dC:\Users\choug\fpgaProjects\adder_14bits\simulation\qsim
+Z5 w1634889830
+Z6 8adder_14bits.vo
+Z7 Fadder_14bits.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|adder_14bits.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1634889831.036000
+Z12 !s107 adder_14bits.vo|
+!s101 -O0
+vadder_14bits_vlg_check_tst
+!i10b 1
+Z13 !s100 id5VUkcLkjJRn]zT_HMZ<3
+Z14 I4^WNmh3@16RXUDgWeXE^<3
+Z15 VKnQHT`UnE`[_]nR8Z^Qo90
+R4
+Z16 w1634889828
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1634889831.128000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vadder_14bits_vlg_sample_tst
+!i10b 1
+Z22 !s100 ?E]E;Y?jKSiiZ6Rzk8GBf0
+Z23 I26PTd;@E<7moM1oo:mYZe1
+Z24 V_e;;;`Ycfc]U<OlBWSZb@3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vadder_14bits_vlg_vec_tst
+!i10b 1
+Z25 !s100 UBhMKfngYce>@UQ7jERX_2
+Z26 IIJ?PE_b0m^SJ5KiYIQn_22
+Z27 V]h2Q1OR3N3hHl_@XXLh@g0
+R4
+R16
+R17
+R18
+Z28 L0 416
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

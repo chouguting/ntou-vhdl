@@ -1,0 +1,124 @@
+|generic_shift_register_8bit_ex
+D_in => generic_shift_register:sft_reg_1.D_in
+L_R => generic_shift_register:sft_reg_1.L_R
+clk => generic_shift_register:sft_reg_1.clk
+reset => generic_shift_register:sft_reg_1.reset
+Q[0] << generic_shift_register:sft_reg_1.Q[0]
+Q[1] << generic_shift_register:sft_reg_1.Q[1]
+Q[2] << generic_shift_register:sft_reg_1.Q[2]
+Q[3] << generic_shift_register:sft_reg_1.Q[3]
+Q[4] << generic_shift_register:sft_reg_1.Q[4]
+Q[5] << generic_shift_register:sft_reg_1.Q[5]
+Q[6] << generic_shift_register:sft_reg_1.Q[6]
+Q[7] << generic_shift_register:sft_reg_1.Q[7]
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1
+D_in => lr_register_1bit:DFFs:0:D0:D.R_in
+D_in => lr_register_1bit:DFFs:7:De:D.L_in
+L_R => lr_register_1bit:DFFs:0:D0:D.LR_mode
+L_R => lr_register_1bit:DFFs:1:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:2:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:3:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:4:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:5:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:6:Dx:D.LR_mode
+L_R => lr_register_1bit:DFFs:7:De:D.LR_mode
+clk => lr_register_1bit:DFFs:0:D0:D.clk
+clk => lr_register_1bit:DFFs:1:Dx:D.clk
+clk => lr_register_1bit:DFFs:2:Dx:D.clk
+clk => lr_register_1bit:DFFs:3:Dx:D.clk
+clk => lr_register_1bit:DFFs:4:Dx:D.clk
+clk => lr_register_1bit:DFFs:5:Dx:D.clk
+clk => lr_register_1bit:DFFs:6:Dx:D.clk
+clk => lr_register_1bit:DFFs:7:De:D.clk
+reset => lr_register_1bit:DFFs:0:D0:D.reset
+reset => lr_register_1bit:DFFs:1:Dx:D.reset
+reset => lr_register_1bit:DFFs:2:Dx:D.reset
+reset => lr_register_1bit:DFFs:3:Dx:D.reset
+reset => lr_register_1bit:DFFs:4:Dx:D.reset
+reset => lr_register_1bit:DFFs:5:Dx:D.reset
+reset => lr_register_1bit:DFFs:6:Dx:D.reset
+reset => lr_register_1bit:DFFs:7:De:D.reset
+Q[0] <= lr_register_1bit:DFFs:0:D0:D.D_out
+Q[1] <= lr_register_1bit:DFFs:1:Dx:D.D_out
+Q[2] <= lr_register_1bit:DFFs:2:Dx:D.D_out
+Q[3] <= lr_register_1bit:DFFs:3:Dx:D.D_out
+Q[4] <= lr_register_1bit:DFFs:4:Dx:D.D_out
+Q[5] <= lr_register_1bit:DFFs:5:Dx:D.D_out
+Q[6] <= lr_register_1bit:DFFs:6:Dx:D.D_out
+Q[7] <= lr_register_1bit:DFFs:7:De:D.D_out
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:0:D0:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:1:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:2:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:3:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:4:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:5:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:6:Dx:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|generic_shift_register_8bit_ex|generic_shift_register:sft_reg_1|lr_register_1bit:\DFFs:7:De:D
+clk => D_out~reg0.CLK
+reset => D_out~reg0.ACLR
+L_in => D_out.DATAB
+R_in => D_out.DATAA
+LR_mode => D_out.OUTPUTSELECT
+D_out <= D_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,312 @@
+// Copyright (C) 1991-2014 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.4 Build 182 03/12/2014 SJ Web Edition"
+
+// DATE "10/02/2021 21:46:48"
+
+// 
+// Device: Altera EP4CGX15BF14C6 Package FBGA169
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module mux8_1 (
+	I,
+	sel,
+	D_out);
+input 	[7:0] I;
+input 	[2:0] sel;
+output 	D_out;
+
+// Design Ports Information
+// D_out	=>  Location: PIN_A6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[4]	=>  Location: PIN_N6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sel[2]	=>  Location: PIN_N11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sel[1]	=>  Location: PIN_L7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[1]	=>  Location: PIN_M4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sel[0]	=>  Location: PIN_N8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[0]	=>  Location: PIN_L4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[2]	=>  Location: PIN_M6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[3]	=>  Location: PIN_A8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[6]	=>  Location: PIN_K9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[5]	=>  Location: PIN_G13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// I[7]	=>  Location: PIN_H13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \D_out~output_o ;
+wire \sel[1]~input_o ;
+wire \I[2]~input_o ;
+wire \sel[2]~input_o ;
+wire \I[3]~input_o ;
+wire \sel[0]~input_o ;
+wire \D_out~1_combout ;
+wire \I[0]~input_o ;
+wire \I[1]~input_o ;
+wire \D_out~0_combout ;
+wire \D_out~2_combout ;
+wire \I[4]~input_o ;
+wire \I[5]~input_o ;
+wire \I[6]~input_o ;
+wire \X[1]~0_combout ;
+wire \I[7]~input_o ;
+wire \X[1]~1_combout ;
+wire \D_out~3_combout ;
+
+
+// Location: IOOBUF_X10_Y31_N2
+cycloneiv_io_obuf \D_out~output (
+	.i(\D_out~3_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\D_out~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \D_out~output .bus_hold = "false";
+defparam \D_out~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X14_Y0_N1
+cycloneiv_io_ibuf \sel[1]~input (
+	.i(sel[1]),
+	.ibar(gnd),
+	.o(\sel[1]~input_o ));
+// synopsys translate_off
+defparam \sel[1]~input .bus_hold = "false";
+defparam \sel[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y0_N8
+cycloneiv_io_ibuf \I[2]~input (
+	.i(I[2]),
+	.ibar(gnd),
+	.o(\I[2]~input_o ));
+// synopsys translate_off
+defparam \I[2]~input .bus_hold = "false";
+defparam \I[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X26_Y0_N1
+cycloneiv_io_ibuf \sel[2]~input (
+	.i(sel[2]),
+	.ibar(gnd),
+	.o(\sel[2]~input_o ));
+// synopsys translate_off
+defparam \sel[2]~input .bus_hold = "false";
+defparam \sel[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y31_N8
+cycloneiv_io_ibuf \I[3]~input (
+	.i(I[3]),
+	.ibar(gnd),
+	.o(\I[3]~input_o ));
+// synopsys translate_off
+defparam \I[3]~input .bus_hold = "false";
+defparam \I[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X20_Y0_N8
+cycloneiv_io_ibuf \sel[0]~input (
+	.i(sel[0]),
+	.ibar(gnd),
+	.o(\sel[0]~input_o ));
+// synopsys translate_off
+defparam \sel[0]~input .bus_hold = "false";
+defparam \sel[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N2
+cycloneiv_lcell_comb \D_out~1 (
+// Equation(s):
+// \D_out~1_combout  = (\sel[2]~input_o  & (((\sel[0]~input_o )))) # (!\sel[2]~input_o  & ((\sel[0]~input_o  & ((\I[3]~input_o ))) # (!\sel[0]~input_o  & (\I[2]~input_o ))))
+
+	.dataa(\I[2]~input_o ),
+	.datab(\sel[2]~input_o ),
+	.datac(\I[3]~input_o ),
+	.datad(\sel[0]~input_o ),
+	.cin(gnd),
+	.combout(\D_out~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \D_out~1 .lut_mask = 16'hFC22;
+defparam \D_out~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X8_Y0_N8
+cycloneiv_io_ibuf \I[0]~input (
+	.i(I[0]),
+	.ibar(gnd),
+	.o(\I[0]~input_o ));
+// synopsys translate_off
+defparam \I[0]~input .bus_hold = "false";
+defparam \I[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X8_Y0_N1
+cycloneiv_io_ibuf \I[1]~input (
+	.i(I[1]),
+	.ibar(gnd),
+	.o(\I[1]~input_o ));
+// synopsys translate_off
+defparam \I[1]~input .bus_hold = "false";
+defparam \I[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N24
+cycloneiv_lcell_comb \D_out~0 (
+// Equation(s):
+// \D_out~0_combout  = (\sel[0]~input_o  & ((\I[1]~input_o ))) # (!\sel[0]~input_o  & (\I[0]~input_o ))
+
+	.dataa(\I[0]~input_o ),
+	.datab(\I[1]~input_o ),
+	.datac(gnd),
+	.datad(\sel[0]~input_o ),
+	.cin(gnd),
+	.combout(\D_out~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \D_out~0 .lut_mask = 16'hCCAA;
+defparam \D_out~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N12
+cycloneiv_lcell_comb \D_out~2 (
+// Equation(s):
+// \D_out~2_combout  = (\sel[1]~input_o  & ((\D_out~1_combout ) # ((\sel[2]~input_o )))) # (!\sel[1]~input_o  & ((\sel[2]~input_o  & (\D_out~1_combout )) # (!\sel[2]~input_o  & ((\D_out~0_combout )))))
+
+	.dataa(\sel[1]~input_o ),
+	.datab(\D_out~1_combout ),
+	.datac(\sel[2]~input_o ),
+	.datad(\D_out~0_combout ),
+	.cin(gnd),
+	.combout(\D_out~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \D_out~2 .lut_mask = 16'hEDE8;
+defparam \D_out~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y0_N1
+cycloneiv_io_ibuf \I[4]~input (
+	.i(I[4]),
+	.ibar(gnd),
+	.o(\I[4]~input_o ));
+// synopsys translate_off
+defparam \I[4]~input .bus_hold = "false";
+defparam \I[4]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X33_Y16_N22
+cycloneiv_io_ibuf \I[5]~input (
+	.i(I[5]),
+	.ibar(gnd),
+	.o(\I[5]~input_o ));
+// synopsys translate_off
+defparam \I[5]~input .bus_hold = "false";
+defparam \I[5]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X22_Y0_N1
+cycloneiv_io_ibuf \I[6]~input (
+	.i(I[6]),
+	.ibar(gnd),
+	.o(\I[6]~input_o ));
+// synopsys translate_off
+defparam \I[6]~input .bus_hold = "false";
+defparam \I[6]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N6
+cycloneiv_lcell_comb \X[1]~0 (
+// Equation(s):
+// \X[1]~0_combout  = (\sel[1]~input_o  & (!\sel[0]~input_o  & ((\I[6]~input_o )))) # (!\sel[1]~input_o  & (\sel[0]~input_o  & (\I[5]~input_o )))
+
+	.dataa(\sel[1]~input_o ),
+	.datab(\sel[0]~input_o ),
+	.datac(\I[5]~input_o ),
+	.datad(\I[6]~input_o ),
+	.cin(gnd),
+	.combout(\X[1]~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \X[1]~0 .lut_mask = 16'h6240;
+defparam \X[1]~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X33_Y16_N15
+cycloneiv_io_ibuf \I[7]~input (
+	.i(I[7]),
+	.ibar(gnd),
+	.o(\I[7]~input_o ));
+// synopsys translate_off
+defparam \I[7]~input .bus_hold = "false";
+defparam \I[7]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N0
+cycloneiv_lcell_comb \X[1]~1 (
+// Equation(s):
+// \X[1]~1_combout  = (\X[1]~0_combout ) # ((\I[7]~input_o  & (\sel[0]~input_o  $ (!\sel[1]~input_o ))))
+
+	.dataa(\X[1]~0_combout ),
+	.datab(\sel[0]~input_o ),
+	.datac(\I[7]~input_o ),
+	.datad(\sel[1]~input_o ),
+	.cin(gnd),
+	.combout(\X[1]~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \X[1]~1 .lut_mask = 16'hEABA;
+defparam \X[1]~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X17_Y2_N10
+cycloneiv_lcell_comb \D_out~3 (
+// Equation(s):
+// \D_out~3_combout  = (\D_out~2_combout  & (((\X[1]~1_combout ) # (!\sel[2]~input_o )))) # (!\D_out~2_combout  & (\I[4]~input_o  & (\sel[2]~input_o )))
+
+	.dataa(\D_out~2_combout ),
+	.datab(\I[4]~input_o ),
+	.datac(\sel[2]~input_o ),
+	.datad(\X[1]~1_combout ),
+	.cin(gnd),
+	.combout(\D_out~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \D_out~3 .lut_mask = 16'hEA4A;
+defparam \D_out~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign D_out = \D_out~output_o ;
+
+endmodule

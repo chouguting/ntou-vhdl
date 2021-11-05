@@ -1,0 +1,21 @@
+|mux8_1
+I[0] => X[0].DATAB
+I[1] => X[0].DATAB
+I[2] => X[0].DATAB
+I[3] => X[0].DATAA
+I[4] => X[1].DATAB
+I[5] => X[1].DATAB
+I[6] => X[1].DATAB
+I[7] => X[1].DATAA
+sel[0] => Equal0.IN3
+sel[0] => Equal1.IN3
+sel[0] => Equal2.IN3
+sel[0] => Equal3.IN3
+sel[1] => Equal0.IN2
+sel[1] => Equal1.IN2
+sel[1] => Equal2.IN2
+sel[1] => Equal3.IN2
+sel[2] => D_out.OUTPUTSELECT
+D_out <= D_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

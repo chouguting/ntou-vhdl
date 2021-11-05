@@ -1,0 +1,290 @@
+$comment
+	File created using the following command:
+		vcd file mux8_1.msim.vcd -direction
+$end
+$date
+	Sat Oct 02 21:46:49 2021
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mux8_1_vlg_vec_tst $end
+$var reg 8 ! I [7:0] $end
+$var reg 3 " sel [2:0] $end
+$var wire 1 # D_out $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + D_out~output_o $end
+$var wire 1 , sel[1]~input_o $end
+$var wire 1 - I[2]~input_o $end
+$var wire 1 . sel[2]~input_o $end
+$var wire 1 / I[3]~input_o $end
+$var wire 1 0 sel[0]~input_o $end
+$var wire 1 1 D_out~1_combout $end
+$var wire 1 2 I[0]~input_o $end
+$var wire 1 3 I[1]~input_o $end
+$var wire 1 4 D_out~0_combout $end
+$var wire 1 5 D_out~2_combout $end
+$var wire 1 6 I[4]~input_o $end
+$var wire 1 7 I[5]~input_o $end
+$var wire 1 8 I[6]~input_o $end
+$var wire 1 9 X[1]~0_combout $end
+$var wire 1 : I[7]~input_o $end
+$var wire 1 ; X[1]~1_combout $end
+$var wire 1 < D_out~3_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+$end
+#20000
+b1 !
+12
+0$
+14
+15
+1<
+1+
+1#
+#80000
+b0 !
+02
+1$
+04
+05
+0<
+0+
+0#
+#100000
+b1 "
+10
+0$
+#130000
+b10 !
+13
+1$
+14
+15
+1<
+1+
+1#
+#160000
+b0 !
+03
+0$
+04
+05
+0<
+0+
+0#
+#180000
+b11 "
+b10 "
+00
+1,
+1$
+#190000
+b100 !
+1-
+0$
+11
+15
+1<
+1+
+1#
+#230000
+b0 !
+0-
+1$
+01
+05
+0<
+0+
+0#
+#250000
+b11 "
+10
+0$
+#280000
+b1000 !
+1/
+1$
+11
+15
+1<
+1+
+1#
+#310000
+b0 !
+0/
+0$
+01
+05
+0<
+0+
+0#
+#330000
+b111 "
+b101 "
+b100 "
+00
+0,
+1.
+1$
+#340000
+b10000 !
+16
+0$
+1<
+1+
+1#
+#360000
+b0 !
+06
+1$
+0<
+0+
+0#
+#380000
+b101 "
+10
+0$
+11
+15
+#400000
+b100000 !
+17
+1$
+19
+1;
+1<
+1+
+1#
+#440000
+b0 !
+07
+0$
+09
+0;
+0<
+0+
+0#
+#470000
+b1000000 !
+b111 "
+b110 "
+00
+1,
+18
+1$
+19
+01
+1;
+1<
+1+
+1#
+#500000
+b0 !
+08
+0$
+09
+0;
+0<
+0+
+0#
+#530000
+b111 "
+10
+1$
+11
+#550000
+b10000000 !
+1:
+0$
+1;
+1<
+1+
+1#
+#600000
+b0 !
+0:
+1$
+0;
+0<
+0+
+0#
+#650000
+b11 "
+0.
+0$
+01
+1<
+05
+1+
+1#
+0<
+0+
+0#
+#680000
+b1000 !
+1/
+1$
+11
+15
+1<
+1+
+1#
+#800000
+b0 !
+0/
+0$
+01
+05
+0<
+0+
+0#
+#930000
+b1 "
+b0 "
+00
+0,
+1$
+#1000000

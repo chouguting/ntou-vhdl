@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\vhdlProjects\ntou-vhdl\generic_multiplier_8bit\simulation\qsim
+vgeneric_multiplier_8bit
+Z1 !s100 JBTBZ94I5R]Bn=RT2d`UV1
+Z2 IjMoe=]>R:ENeT51gH>K>b1
+Z3 V@fOP5c;ZiGX;o_lnYaQG@0
+Z4 dC:\Users\choug\vhdlProjects\ntou-vhdl\generic_multiplier_8bit\simulation\qsim
+Z5 w1636188545
+Z6 8generic_multiplier_8bit.vo
+Z7 Fgeneric_multiplier_8bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|generic_multiplier_8bit.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1636188546.663000
+Z12 !s107 generic_multiplier_8bit.vo|
+!s101 -O0
+vgeneric_multiplier_8bit_vlg_check_tst
+!i10b 1
+Z13 !s100 WkdFZQGCfYlGLJOQaLT4F1
+Z14 Ie[;P@E=WZigoGLPCSL@`N0
+Z15 VKgR3Q0Bjb7a]FJ_67iYFW0
+R4
+Z16 w1636188544
+Z17 8generic_multiplier_8bit_wave1.vwf.vt
+Z18 Fgeneric_multiplier_8bit_wave1.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1636188546.738000
+Z20 !s107 generic_multiplier_8bit_wave1.vwf.vt|
+Z21 !s90 -work|work|generic_multiplier_8bit_wave1.vwf.vt|
+!s101 -O0
+R10
+vgeneric_multiplier_8bit_vlg_sample_tst
+!i10b 1
+Z22 !s100 G^D<nb7hdL4OgjgOf>6gB1
+Z23 IV=Kg^KhIUg3YC>OFZdo;c2
+Z24 VMfKS1K3kidK1]C]li04[[0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vgeneric_multiplier_8bit_vlg_vec_tst
+!i10b 1
+Z25 !s100 Bn6Ed0kACo0RdYiBIJbk;2
+Z26 ICY]SK?;CBz:5GG;WJkK273
+Z27 Vc=YX1]o[H]Wo7]NPTB:Xd2
+R4
+R16
+R17
+R18
+Z28 L0 423
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,8 +1,8 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/choug/vhdlProjects/ntou-vhdl/fast_multiplier_8bit/fast_multiplier_8bit.vhd
-source_file = 1, C:/Users/choug/vhdlProjects/ntou-vhdl/fast_multiplier_8bit/adder_8bit.vhd
-source_file = 1, C:/Users/choug/vhdlProjects/ntou-vhdl/fast_multiplier_8bit/fast_multiplier_8bit_wave1.vwf
-source_file = 1, C:/Users/choug/vhdlProjects/ntou-vhdl/fast_multiplier_8bit/db/fast_multiplier_8bit.cbx.xml
+source_file = 1, C:/Users/choug/fpgaProjects/ntou-vhdl/fast_multiplier_8bit/fast_multiplier_8bit.vhd
+source_file = 1, C:/Users/choug/fpgaProjects/ntou-vhdl/fast_multiplier_8bit/adder_8bit.vhd
+source_file = 1, C:/Users/choug/fpgaProjects/ntou-vhdl/fast_multiplier_8bit/fast_multiplier_8bit_wave1.vwf
+source_file = 1, C:/Users/choug/fpgaProjects/ntou-vhdl/fast_multiplier_8bit/db/fast_multiplier_8bit.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

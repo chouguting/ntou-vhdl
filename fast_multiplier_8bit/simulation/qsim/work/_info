@@ -4,10 +4,10 @@ K3
 cModel Technology
 Z0 dC:\Users\choug\vhdlProjects\ntou-vhdl\fast_multiplier_8bit\simulation\qsim
 vfast_multiplier_8bit
-Z1 Io8]n8BUIHICi<>5ZCogTO1
+Z1 IHM92fBjZag<JZ3UIGIaM=0
 Z2 VRVg1XnZ=;_M73mlo@zQC41
-Z3 dC:\Users\choug\vhdlProjects\ntou-vhdl\fast_multiplier_8bit\simulation\qsim
-Z4 w1636184348
+Z3 dC:\Users\choug\fpgaProjects\ntou-vhdl\fast_multiplier_8bit\simulation\qsim
+Z4 w1636471449
 Z5 8fast_multiplier_8bit.vo
 Z6 Ffast_multiplier_8bit.vo
 L0 31
@@ -17,9 +17,9 @@ r1
 Z8 !s90 -work|work|fast_multiplier_8bit.vo|
 Z9 o-work work -O0
 !i10b 1
-Z10 !s100 WL3nE;Dcf5fTK[R:6eSMU3
+Z10 !s100 [P_XNB1_TUzmHGX2bHE6M3
 !s85 0
-Z11 !s108 1636184348.878000
+Z11 !s108 1636471450.751000
 Z12 !s107 fast_multiplier_8bit.vo|
 !s101 -O0
 vfast_multiplier_8bit_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 S8W<IZKacfIHEkm:Rh8i[3
 Z14 I=aTQd?gbbOLCB?3ZK_4J82
 Z15 VM4omH;HY^BdDL:zAkKa`G3
 R3
-Z16 w1636184346
+Z16 w1636471448
 Z17 8fast_multiplier_8bit_wave1.vwf.vt
 Z18 Ffast_multiplier_8bit_wave1.vwf.vt
 L0 59
@@ -36,7 +36,7 @@ R7
 r1
 !s85 0
 31
-Z19 !s108 1636184348.946000
+Z19 !s108 1636471450.836000
 Z20 !s107 fast_multiplier_8bit_wave1.vwf.vt|
 Z21 !s90 -work|work|fast_multiplier_8bit_wave1.vwf.vt|
 !s101 -O0

@@ -1,3 +1,8 @@
+--------------------------------
+--  00857005 周固廷  作業6-2   --
+--         8bit 乘法器         --
+--------------------------------
+
 library IEEE;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;

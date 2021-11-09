@@ -1,3 +1,7 @@
+--------------------------------
+--  00857005 周固廷  作業6-2   --
+--      1~8bit 可擴充乘法器    --
+--------------------------------
 library IEEE;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -51,6 +55,5 @@ begin
 		end loop;
 	end process;
 	
-	mult_out(bit_count*2-1 downto bit_count-1) <= (C(bit_count-1) & G(bit_count-1));
-	
+	mult_out(bit_count*2-1 downto bit_count-1) <= (C(bit_count-1) & G(bit_count-1));	
 end mult;

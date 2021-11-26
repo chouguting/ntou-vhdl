@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\ntou-vhdl\clk_with_number\simulation\qsim
+vclk_with_number
+Z1 !s100 0iY><A>3fMo`dc2oU[6dN1
+Z2 ImAIdj6mA6;iCMMW0k<ZnT3
+Z3 V^]U>MB6`S2<k[FW@1kD3j0
+Z4 dC:\Users\choug\fpgaProjects\ntou-vhdl\clk_with_number\simulation\qsim
+Z5 w1637912125
+Z6 8clk_with_number.vo
+Z7 Fclk_with_number.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|clk_with_number.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1637912126.582000
+Z12 !s107 clk_with_number.vo|
+!s101 -O0
+vclk_with_number_vlg_check_tst
+!i10b 1
+Z13 !s100 Ymj;f;>ca51VO2dQDD0c40
+Z14 I]ooN^MgjceBS>7LG7IRWT1
+Z15 VLk=oA2f6I>^n7V4KF^DU32
+R4
+Z16 w1637912124
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1637912126.689000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vclk_with_number_vlg_sample_tst
+!i10b 1
+Z22 !s100 <HDCNfDBf3;1OmfImJ5nn2
+Z23 IP[?M<4CjkE^RFV=XC9m6<3
+Z24 VF;f3EWPNYG_2W@mkn`[a50
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vclk_with_number_vlg_vec_tst
+!i10b 1
+!s100 _O_dZ7gLZ>HMo_omfGib53
+IjN@nZ3U;TNcgHDFJiz0@a0
+Z25 VU^RCF9Q8XP8hXS7Ja<D9E0
+R4
+R16
+R17
+R18
+Z26 L0 494
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

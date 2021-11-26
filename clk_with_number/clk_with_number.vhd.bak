@@ -1,0 +1,66 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity clk_with_number is
+port(
+	clk:in std_logic;
+	reset:in std_logic;
+	onesec_out:buffer std_logic_vector(9 downto 0);
+	decoded_out:out std_logic_vector(7 downto 0)
+);
+end clk_with_number;
+
+architecture oneSecClk of clk_with_number is
+signal count:std_logic_vector(25 downto 0);
+signal zero_to_nine_counter:std_logic_vector(3 downto 0);
+begin
+
+	process(clk)
+	begin
+		if(rising_edge(clk)) then
+			if(count = "10111110101111000010000000"-1) then
+				count <= (others=>'0');
+			else
+				count <= count+1;
+			end if;
+		end if;
+	end process;
+	
+	
+	process(count) begin
+		for i in 0 to 9 loop
+			if(count < "01011111010111100001000000") then
+				onesec_out(i) <= '1'; 
+			else
+				onesec_out(i) <= '0'; 
+			end if;
+		end loop;
+	end process;
+	
+	process(onesec_out(0)) begin
+		if(reset = '0') then
+			zero_to_nine_counter <= x"0";
+		elsif(rising_edge(onesec_out(0))) then
+			if(zero_to_nine_counter=x"9") then
+				zero_to_nine_counter <= x"0";
+			else
+				zero_to_nine_counter <= zero_to_nine_counter+1;
+			end if;
+		end if;
+	end process;
+	
+	 decoded_out <= "11000000" when zero_to_nine_counter = x"0" else
+                   "11111001" when zero_to_nine_counter = x"1" else
+                   "10100100" when zero_to_nine_counter = x"2" else
+                   "10110000" when zero_to_nine_counter = x"3" else
+                   "10011001" when zero_to_nine_counter = x"4" else
+                   "10010010" when zero_to_nine_counter = x"5" else
+                   "10000010" when zero_to_nine_counter = x"6" else
+                   "11111000" when zero_to_nine_counter = x"7" else
+                   "10000000" when zero_to_nine_counter = x"8" else
+                   "10010000" when zero_to_nine_counter = x"9" else
+                   "00000000";
+	
+	
+end oneSecClk;

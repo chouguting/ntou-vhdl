@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity seven_seg_decoder is
+port(
+	num:in std_logic_vector(3 downto 0);
+	decoded_out:out std_logic_vector(7 downto 0);
+);
+end seven_seg_decoder;
+
+architecture decoder of seven_seg_decoder is
+begin
+	decoded_out <= "11000000" when zero_to_nine_counter2 = x"0" else
+                  "11111001" when zero_to_nine_counter2 = x"1" else
+                  "10100100" when zero_to_nine_counter2 = x"2" else
+                  "10110000" when zero_to_nine_counter2 = x"3" else
+                  "10011001" when zero_to_nine_counter2 = x"4" else
+                  "10010010" when zero_to_nine_counter2 = x"5" else
+                  "10000010" when zero_to_nine_counter2 = x"6" else
+                  "11111000" when zero_to_nine_counter2 = x"7" else
+                  "10000000" when zero_to_nine_counter2 = x"8" else
+                  "10010000" when zero_to_nine_counter2 = x"9" else
+                  "10001000" when zero_to_nine_counter2 = x"A" else
+						"10000011" when zero_to_nine_counter2 = x"B" else
+						"11000110" when zero_to_nine_counter2 = x"C" else
+						"10100001" when zero_to_nine_counter2 = x"D" else
+						"10000110" when zero_to_nine_counter2 = x"E" else
+						"10001110" when zero_to_nine_counter2 = x"F" else
+						"00000000";
+end decoder;

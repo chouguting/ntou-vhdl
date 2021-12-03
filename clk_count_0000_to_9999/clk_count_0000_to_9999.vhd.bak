@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+
+entity clk_count_0000_to_9999 is
+port(
+	reset:in std_logic;
+	clk:in std_logic;
+	seven_seg_decoded1:out std_logic_vector(7 downto 0);
+	seven_seg_decoded2:out std_logic_vector(7 downto 0);
+	seven_seg_decoded3:out std_logic_vector(7 downto 0);
+	seven_seg_decoded4:out std_logic_vector(7 downto 0)
+);
+end clk_count_0000_to_9999;
+
+architecture counter of clk_count_0000_to_9999 is
+component seven_seg_decoder is
+port(
+	num:in std_logic_vector(3 downto 0);
+	decoded_out:out std_logic_vector(7 downto 0)
+);
+end component;
+
+component BCD_cascading_counter_4bit is
+port(
+	clk:in std_logic;
+	reset:in std_logic;
+	casin:in std_logic;
+	count:buffer std_logic_vector(3 downto 0);
+	casout:out std_logic
+);
+end component;
+begin
+
+end counter;

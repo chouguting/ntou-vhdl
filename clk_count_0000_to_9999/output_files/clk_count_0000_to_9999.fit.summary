@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 29 11:10:01 2021
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
+Revision Name : clk_count_0000_to_9999
+Top-level Entity Name : clk_count_0000_to_9999
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 103 / 15,408 ( < 1 % )
+    Total combinational functions : 102 / 15,408 ( < 1 % )
+    Dedicated logic registers : 43 / 15,408 ( < 1 % )
+Total registers : 43
+Total pins : 44 / 347 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

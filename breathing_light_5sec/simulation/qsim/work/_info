@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\ntou-vhdl\breathing_light_5sec\simulation\qsim
+vbreathing_light_5sec
+Z1 !s100 G2Ig8OMa0]`NLzn8G;Ia90
+Z2 IUXBbXNQe71hdnE1P]0io93
+Z3 VN6;ACQIik6HOlf1]H;76b2
+Z4 dC:\Users\choug\fpgaProjects\ntou-vhdl\breathing_light_5sec\simulation\qsim
+Z5 w1638619604
+Z6 8breathing_light_5sec.vo
+Z7 Fbreathing_light_5sec.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|breathing_light_5sec.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1638619604.801000
+Z12 !s107 breathing_light_5sec.vo|
+!s101 -O0
+vbreathing_light_5sec_vlg_check_tst
+!i10b 1
+!s100 A?@n2JC@kI?4QiXZ9^KhN3
+IZ56lQoh=^Sa5I:>`z>i]Q0
+Z13 VS`W@]NJa^IIa0AGjU=Lf61
+R4
+Z14 w1638619603
+Z15 8breathing_light_5sec_wave1.vwf.vt
+Z16 Fbreathing_light_5sec_wave1.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1638619604.840000
+Z18 !s107 breathing_light_5sec_wave1.vwf.vt|
+Z19 !s90 -work|work|breathing_light_5sec_wave1.vwf.vt|
+!s101 -O0
+R10
+vbreathing_light_5sec_vlg_sample_tst
+!i10b 1
+Z20 !s100 B7Qi5<n[o14Bjog3h]7jG3
+Z21 I^[NX;RCZPG9<DE5P=^B=:3
+Z22 VFJk=GJGk^8Va<>08^n[3Z0
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vbreathing_light_5sec_vlg_vec_tst
+!i10b 1
+Z23 !s100 Az9[bG^iR<XJC7`N9Td^81
+Z24 IGjaF?CU]Ynm[NJHe27o8K0
+Z25 V[Ab4F@1>:eZ515J:DoC@g1
+R4
+R14
+R15
+R16
+Z26 L0 1051
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

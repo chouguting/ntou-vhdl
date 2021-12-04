@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity breathing_light_5sec_x5_diff_brightness_vlg_vec_tst is
+end breathing_light_5sec_x5_diff_brightness_vlg_vec_tst;

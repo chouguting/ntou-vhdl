@@ -1,5 +1,5 @@
 Analysis & Synthesis report for breathing_light_5sec
-Fri Dec 03 16:27:23 2021
+Sat Dec 04 22:13:13 2021
 Quartus II 64-Bit Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
 
 
@@ -13,9 +13,10 @@ Quartus II 64-Bit Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Elapsed Time Per Partition
- 10. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -41,15 +42,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 03 16:27:23 2021      ;
+; Analysis & Synthesis Status        ; Successful - Sat Dec 04 22:13:13 2021      ;
 ; Quartus II 64-Bit Version          ; 13.1.4 Build 182 03/12/2014 SJ Web Edition ;
 ; Revision Name                      ; breathing_light_5sec                       ;
 ; Top-level Entity Name              ; breathing_light_5sec                       ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 59                                         ;
-;     Total combinational functions  ; 59                                         ;
-;     Dedicated logic registers      ; 28                                         ;
-; Total registers                    ; 28                                         ;
+; Total logic elements               ; 89                                         ;
+;     Total combinational functions  ; 89                                         ;
+;     Dedicated logic registers      ; 49                                         ;
+; Total registers                    ; 49                                         ;
 ; Total pins                         ; 3                                          ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -145,15 +146,21 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+----------------------+----------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 8      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-20        ;   0.0%      ;
++----------------------------+-------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -170,28 +177,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 59          ;
+; Estimated Total logic elements              ; 89          ;
 ;                                             ;             ;
-; Total combinational functions               ; 59          ;
+; Total combinational functions               ; 89          ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 15          ;
-;     -- 3 input functions                    ; 4           ;
-;     -- <=2 input functions                  ; 40          ;
+;     -- 4 input functions                    ; 17          ;
+;     -- 3 input functions                    ; 17          ;
+;     -- <=2 input functions                  ; 55          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 34          ;
-;     -- arithmetic mode                      ; 25          ;
+;     -- normal mode                          ; 39          ;
+;     -- arithmetic mode                      ; 50          ;
 ;                                             ;             ;
-; Total registers                             ; 28          ;
-;     -- Dedicated logic registers            ; 28          ;
+; Total registers                             ; 49          ;
+;     -- Dedicated logic registers            ; 49          ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 3           ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 28          ;
-; Total fan-out                               ; 237         ;
-; Average fan-out                             ; 2.55        ;
+; Maximum fan-out                             ; 41          ;
+; Total fan-out                               ; 381         ;
+; Average fan-out                             ; 2.65        ;
 +---------------------------------------------+-------------+
 
 
@@ -200,9 +207,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name   ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
-; |breathing_light_5sec      ; 59 (59)           ; 28 (28)      ; 0           ; 0            ; 0       ; 0         ; 3    ; 0            ; |breathing_light_5sec ; work         ;
+; |breathing_light_5sec      ; 89 (89)           ; 49 (49)      ; 0           ; 0            ; 0       ; 0         ; 3    ; 0            ; |breathing_light_5sec ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------+
+; Registers Removed During Synthesis                             ;
++---------------------------------------+------------------------+
+; Register name                         ; Reason for Removal     ;
++---------------------------------------+------------------------+
+; led_counter[0]                        ; Merged with pwm_num[0] ;
+; Total Number of Removed Registers = 1 ;                        ;
++---------------------------------------+------------------------+
 
 
 +------------------------------------------------------+
@@ -210,10 +227,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 28    ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 49    ;
+; Number of registers using Synchronous Clear  ; 14    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 27    ;
+; Number of registers using Asynchronous Clear ; 41    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -235,26 +252,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
-    Info: Processing started: Fri Dec 03 16:27:21 2021
+    Info: Processing started: Sat Dec 04 22:13:13 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off breathing_light_5sec -c breathing_light_5sec
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (11104): Parallel Compilation has detected 20 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 12 of the 12 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file breathing_light_5sec.vhd
     Info (12022): Found design unit 1: breathing_light_5sec-light
     Info (12023): Found entity 1: breathing_light_5sec
+Info (12021): Found 2 design units, including 1 entities, in source file tb_light.vhd
+    Info (12022): Found design unit 1: tb_light-test
+    Info (12023): Found entity 1: tb_light
 Info (12127): Elaborating entity "breathing_light_5sec" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at breathing_light_5sec.vhd(26): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at breathing_light_5sec.vhd(42): signal "reset" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 92 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 59 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4663 megabytes
-    Info: Processing ended: Fri Dec 03 16:27:23 2021
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info (21061): Implemented 89 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4702 megabytes
+    Info: Processing ended: Sat Dec 04 22:13:13 2021
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Fri Dec 03 16:27:23 2021
+Analysis & Synthesis Status : Successful - Sat Dec 04 22:13:13 2021
 Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
 Revision Name : breathing_light_5sec
 Top-level Entity Name : breathing_light_5sec
 Family : Cyclone III
-Total logic elements : 59
-    Total combinational functions : 59
-    Dedicated logic registers : 28
-Total registers : 28
+Total logic elements : 89
+    Total combinational functions : 89
+    Dedicated logic registers : 49
+Total registers : 49
 Total pins : 3
 Total virtual pins : 0
 Total memory bits : 0

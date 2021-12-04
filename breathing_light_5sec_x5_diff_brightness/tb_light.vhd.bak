@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity tb_light is
+end tb_light;
+
+architecture test of tb_light is
+end test;

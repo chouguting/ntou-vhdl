@@ -1,14 +1,14 @@
-Fitter Status : Successful - Fri Dec 03 16:27:30 2021
+Fitter Status : Successful - Sat Dec 04 20:15:35 2021
 Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
 Revision Name : breathing_light_5sec
 Top-level Entity Name : breathing_light_5sec
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 59 / 15,408 ( < 1 % )
-    Total combinational functions : 59 / 15,408 ( < 1 % )
-    Dedicated logic registers : 28 / 15,408 ( < 1 % )
-Total registers : 28
+Total logic elements : 93 / 15,408 ( < 1 % )
+    Total combinational functions : 89 / 15,408 ( < 1 % )
+    Dedicated logic registers : 49 / 15,408 ( < 1 % )
+Total registers : 49
 Total pins : 3 / 347 ( < 1 % )
 Total virtual pins : 0
 Total memory bits : 0 / 516,096 ( 0 % )

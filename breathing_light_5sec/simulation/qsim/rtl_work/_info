@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\fpgaProjects\ntou-vhdl\breathing_light_5sec\simulation\qsim
+Ebreathing_light_5sec
+Z1 w1638627157
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\choug\fpgaProjects\ntou-vhdl\breathing_light_5sec\simulation\qsim
+Z7 8C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/breathing_light_5sec.vhd
+Z8 FC:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/breathing_light_5sec.vhd
+l0
+L5
+VeIoCEAoD[jzW8cVOa`A6;1
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1638627199.456000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/breathing_light_5sec.vhd|
+Z12 !s107 C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/breathing_light_5sec.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 M0j61k_ci7dML6Fl;bKRV0
+!i10b 1
+Alight
+R2
+R3
+R4
+R5
+DEx4 work 20 breathing_light_5sec 0 22 eIoCEAoD[jzW8cVOa`A6;1
+l29
+L13
+V;UYB[VS]k5kLVQ><cJKQi3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 OGDlcJhHeDZdOP;l30Kz31
+!i10b 1
+Etb_light
+Z15 w1638627165
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R4
+R5
+R6
+Z17 8C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/tb_light.vhd
+Z18 FC:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/tb_light.vhd
+l0
+L5
+V1FK73cDIbPm3@CEdn0k641
+!s100 OKBcmWmKbTIAKPVNd]IZ@2
+R9
+31
+!i10b 1
+Z19 !s108 1638627199.489000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/tb_light.vhd|
+Z21 !s107 C:/Users/choug/fpgaProjects/ntou-vhdl/breathing_light_5sec/tb_light.vhd|
+R13
+R14
+Atest
+R16
+R4
+R5
+DEx4 work 8 tb_light 0 22 1FK73cDIbPm3@CEdn0k641
+l20
+L8
+V?B_KGH]Z]Jb:<_bRUR@U>3
+!s100 TB_KFbVNKhEzn5o@nenNW0
+R9
+31
+!i10b 1
+R19
+R20
+R21
+R13
+R14

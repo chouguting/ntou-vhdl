@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity breathing_light_5sec_x5_diff_brightness is
+port(
+	port(
+	clk:in std_logic;
+	reset:in std_logic;
+	light_out:out std_logic
+);
+end breathing_light_5sec_x5_diff_brightness;

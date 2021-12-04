@@ -1,0 +1,43 @@
+# do breathing_light_5sec_x5_diff_brightness.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module breathing_light_5sec_x5_diff_brightness
+# 
+# Top level modules:
+# 	breathing_light_5sec_x5_diff_brightness
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module breathing_light_5sec_x5_diff_brightness_vlg_sample_tst
+# -- Compiling module breathing_light_5sec_x5_diff_brightness_vlg_check_tst
+# -- Compiling module breathing_light_5sec_x5_diff_brightness_vlg_vec_tst
+# 
+# Top level modules:
+# 	breathing_light_5sec_x5_diff_brightness_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.breathing_light_5sec_x5_diff_brightness_vlg_vec_tst 
+# Loading work.breathing_light_5sec_x5_diff_brightness_vlg_vec_tst
+# Loading work.breathing_light_5sec_x5_diff_brightness
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.breathing_light_5sec_x5_diff_brightness_vlg_sample_tst
+# Loading work.breathing_light_5sec_x5_diff_brightness_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port pwm0[1] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000010
+# ERROR! Vector Mismatch for output port pwm0[0] :: @time = 1660000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000011
+# ERROR! Vector Mismatch for output port pwm0[2] :: @time = 2460000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000100
+# ERROR! Vector Mismatch for output port pwm0[3] :: @time = 5660000.000 ps
+#      Expected value = 00000000
+#      Real value = 00001000
+# ERROR! Vector Mismatch for output port pwm0[4] :: @time = 12060000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010000
+#           5 mismatched vectors : Simulation failed !
+# ** Note: $finish    : breathing_light_5sec_x5_diff_brightness_wave1.vwf.vt(308)
+#    Time: 60 us  Iteration: 0  Instance: /breathing_light_5sec_x5_diff_brightness_vlg_vec_tst/tb_out

@@ -1,5 +1,5 @@
 Flow report for breathing_light_5sec_x5_diff_brightness
-Sat Dec 04 22:09:35 2021
+Mon Dec 06 12:47:08 2021
 Quartus II 64-Bit Version 13.1.4 Build 182 03/12/2014 SJ Web Edition
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sat Dec 04 22:09:35 2021      ;
+; Flow Status                        ; Successful - Mon Dec 06 12:47:08 2021      ;
 ; Quartus II 64-Bit Version          ; 13.1.4 Build 182 03/12/2014 SJ Web Edition ;
 ; Revision Name                      ; breathing_light_5sec_x5_diff_brightness    ;
 ; Top-level Entity Name              ; breathing_light_5sec_x5_diff_brightness    ;
 ; Family                             ; Cyclone III                                ;
 ; Device                             ; EP3C16F484C6                               ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 597 / 15,408 ( 4 % )                       ;
-;     Total combinational functions  ; 588 / 15,408 ( 4 % )                       ;
+; Total logic elements               ; 568 / 15,408 ( 4 % )                       ;
+;     Total combinational functions  ; 558 / 15,408 ( 4 % )                       ;
 ;     Dedicated logic registers      ; 268 / 15,408 ( 2 % )                       ;
 ; Total registers                    ; 268                                        ;
 ; Total pins                         ; 7 / 347 ( 2 % )                            ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+-----------------------------------------+
 ; Option            ; Setting                                 ;
 +-------------------+-----------------------------------------+
-; Start date & time ; 12/04/2021 22:09:23                     ;
+; Start date & time ; 12/06/2021 12:46:43                     ;
 ; Main task         ; Compilation                             ;
 ; Revision Name     ; breathing_light_5sec_x5_diff_brightness ;
 +-------------------+-----------------------------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                                                                          ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 4681953599930.163862696321752                                                                  ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 216182574671779.163876600304772                                                                ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                             ; --            ; --          ; tb_light       ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                                                                             ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_light                                                                                       ; --            ; --          ; eda_simulation ;
@@ -102,26 +102,26 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 1.8                     ; 5876 MB             ; 00:00:07                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4593 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4778 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4546 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:11                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4655 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:10     ; 1.0                     ; 4961 MB             ; 00:00:09                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4624 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4532 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:20     ; --                      ; --                  ; 00:00:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; GordonPC         ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; GordonPC         ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; GordonPC         ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; GordonPC         ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; GordonPC         ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++---------------------------+--------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname   ; OS Name   ; OS Version ; Processor type ;
++---------------------------+--------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; Gordon-SurfaceBook ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; Gordon-SurfaceBook ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; Gordon-SurfaceBook ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Gordon-SurfaceBook ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Gordon-SurfaceBook ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+--------------------+-----------+------------+----------------+
 
 
 ------------

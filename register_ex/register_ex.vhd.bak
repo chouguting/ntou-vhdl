@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity register_ex is
+port(
+	clk:in std_logic;
+	data:in std_logic_vector(7 downto 0);
+	sel:in std_logic_vector(1 downto 0);
+	hex0:out std_logic_vector(7 downto 0);
+	hex1:out std_logic_vector(7 downto 0))
+);
+end register_ex;

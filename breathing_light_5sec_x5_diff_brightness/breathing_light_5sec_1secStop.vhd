@@ -1,3 +1,8 @@
+--------------------------------
+--   00857005 周固廷  作業8-2  --
+--    一個五秒鐘的呼吸燈        --
+--    每呼吸一輪會暫停一秒      --
+--------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -76,8 +81,8 @@ begin
 	
 	--real:245098
 	--Test:5
-	clk_102Hz <= '1' when (div_490196_counter < 245098) else '0';
-	--clk_102Hz <= div_490196_counter(18);
+	--clk_102Hz <= '1' when (div_490196_counter < 245098) else '0';
+	clk_102Hz <= div_490196_counter(18);
 	
 	
 	--102Hz數到612剛好是6秒鐘

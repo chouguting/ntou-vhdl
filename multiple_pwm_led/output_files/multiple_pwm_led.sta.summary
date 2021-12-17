@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -1.306
+TNS   : -49.727
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -0.941
+TNS   : -5.151
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -0.856
+TNS   : -4.532
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -0.823
+TNS   : -4.153
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L3|pwm_div_counter[0]'
+Slack : -0.704
+TNS   : -3.595
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L9|pwm_div_counter[0]'
+Slack : -0.704
+TNS   : -3.595
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L1|pwm_div_counter[0]'
+Slack : -0.703
+TNS   : -3.588
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L6|pwm_div_counter[0]'
+Slack : -0.701
+TNS   : -3.586
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L8|pwm_div_counter[0]'
+Slack : -0.701
+TNS   : -3.567
+
+Type  : Slow 1200mV 85C Model Setup 'pwm_led:L5|pwm_div_counter[0]'
+Slack : -0.699
+TNS   : -3.573
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.950
+TNS   : -23.761
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L3|pwm_div_counter[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L4|pwm_div_counter[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L6|pwm_div_counter[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L7|pwm_div_counter[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L9|pwm_div_counter[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L1|pwm_div_counter[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L2|pwm_div_counter[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L5|pwm_div_counter[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pwm_led:L8|pwm_div_counter[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -66.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L1|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L3|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L5|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L6|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L8|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pwm_led:L9|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.035
+TNS   : -37.449
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -0.722
+TNS   : -3.830
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -0.647
+TNS   : -3.296
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -0.627
+TNS   : -2.919
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L1|pwm_div_counter[0]'
+Slack : -0.510
+TNS   : -2.443
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L9|pwm_div_counter[0]'
+Slack : -0.510
+TNS   : -2.443
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L3|pwm_div_counter[0]'
+Slack : -0.510
+TNS   : -2.442
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L5|pwm_div_counter[0]'
+Slack : -0.510
+TNS   : -2.436
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L8|pwm_div_counter[0]'
+Slack : -0.510
+TNS   : -2.430
+
+Type  : Slow 1200mV 0C Model Setup 'pwm_led:L6|pwm_div_counter[0]'
+Slack : -0.508
+TNS   : -2.428
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.930
+TNS   : -24.988
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L4|pwm_div_counter[0]'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L5|pwm_div_counter[0]'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L8|pwm_div_counter[0]'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L1|pwm_div_counter[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L3|pwm_div_counter[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L6|pwm_div_counter[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L7|pwm_div_counter[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L9|pwm_div_counter[0]'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pwm_led:L2|pwm_div_counter[0]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -66.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L1|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L3|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L5|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L6|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L8|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pwm_led:L9|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.296
+TNS   : -5.662
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -0.098
+TNS   : -0.185
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -0.044
+TNS   : -0.047
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L3|pwm_div_counter[0]'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L9|pwm_div_counter[0]'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L1|pwm_div_counter[0]'
+Slack : 0.044
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L6|pwm_div_counter[0]'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L8|pwm_div_counter[0]'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pwm_led:L5|pwm_div_counter[0]'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.586
+TNS   : -17.216
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L8|pwm_div_counter[0]'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L2|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L3|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L4|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L6|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L7|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L9|pwm_div_counter[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L1|pwm_div_counter[0]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pwm_led:L5|pwm_div_counter[0]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -68.099
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L1|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L2|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L3|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L4|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L5|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L6|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L7|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L8|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pwm_led:L9|pwm_div_counter[0]'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

@@ -1,3 +1,8 @@
+--------------------------------
+--   00857005 周固廷  作業8-1  --
+--   周期為五秒鐘的呼吸燈      --
+--------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -71,8 +76,8 @@ begin
 	
 	--real:245098
 	--Test:5
-	clk_102Hz <= '1' when (div_490196_counter < 245098) else '0';
-	--clk_102Hz <= div_490196_counter(18);
+	--clk_102Hz <= '1' when (div_490196_counter < 245098) else '0';
+	clk_102Hz <= div_490196_counter(18);
 	
 	--102Hz數到510剛好是5秒鐘
 	process(clk_102Hz,reset,led_counter)
@@ -103,30 +108,5 @@ begin
 	
 	light_out <= '1' when pwm_counter <= pwm_num else
 					 '0';
-	
-	
-	
-	
-	
--- process(clk_102Hz,reset,led_counter)
---	begin
---		if(reset='0') then
---			led_counter <= (others=>'0');
---			light_out <= '0'
---		elsif(rising_edge(clk_102Hz)) then
---			if(led_counter = 101) then
---				led_counter <= (others=>'0');
---				light_out <= not light_out;
---			else 
---				led_counter <= led_counter+1;
---			end if;
---		end if;
---	end process;
--- light_out <= '1' when led_counter < 51 else
---             '0';
-	
-	
-	
-	
 	
 end light;

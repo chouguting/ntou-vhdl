@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 17 14:32:12 2021
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
+Revision Name : connected_shifter
+Top-level Entity Name : connected_shifter
+Family : Cyclone III
+Total logic elements : 48
+    Total combinational functions : 38
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 22
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

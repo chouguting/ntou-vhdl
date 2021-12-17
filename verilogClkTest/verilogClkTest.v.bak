@@ -1,0 +1,20 @@
+module verilogClkTest(clk,reset,light_out);
+input clk,reset;
+output reg light_out;
+
+reg[18:0] div_490196_counter;
+reg[8:0] led_counter;
+reg clk_102Hz;
+
+always@(posedge clk or negedge reset)
+begin
+	if(reset == 1'b0)
+		div_490196_counter = 0;
+	else
+		if(div_490196_counter == 490165)
+			div_490196_counter = 0;
+		else
+			div_490196_counter = div_490196_counter + 1;
+end
+
+endmodule

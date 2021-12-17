@@ -66,6 +66,6 @@ reset => led_counter[5].ACLR
 reset => led_counter[6].ACLR
 reset => led_counter[7].ACLR
 reset => led_counter[8].ACLR
-light_out << LessThan4.DB_MAX_OUTPUT_PORT_TYPE
+light_out <= LessThan3.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity connected_loadable_shifter is
+port(
+	clk_org:in std_logic;
+	load_button:in std_logic;
+	clk1,clk2:out std_logic;
+	load1,load2:out std_logic;
+	data_in:in std_logic;
+	clk_in:in std_logic;
+	load_in:in std_logic;
+	data_out:out std_logic
+);
+end connected_loadable_shifter;

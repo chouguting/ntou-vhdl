@@ -1,3 +1,8 @@
+--------------------------------
+--   00857005 周固廷  作業9-1  --
+--      PWM調節的三色LED      --
+--------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;

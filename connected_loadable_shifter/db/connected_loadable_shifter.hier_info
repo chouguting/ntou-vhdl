@@ -60,12 +60,12 @@ button0 => reset2.DATAIN
 button0 => reset1.DATAIN
 button2 => load2.DATAIN
 button2 => load1.DATAIN
-clk1 <= div_5000000_counter[22].DB_MAX_OUTPUT_PORT_TYPE
-clk2 <= div_5000000_counter[22].DB_MAX_OUTPUT_PORT_TYPE
-load1 <= button2.DB_MAX_OUTPUT_PORT_TYPE
-load2 <= button2.DB_MAX_OUTPUT_PORT_TYPE
-reset1 <= button0.DB_MAX_OUTPUT_PORT_TYPE
-reset2 <= button0.DB_MAX_OUTPUT_PORT_TYPE
+clk1 << div_5000000_counter[22].DB_MAX_OUTPUT_PORT_TYPE
+clk2 << div_5000000_counter[22].DB_MAX_OUTPUT_PORT_TYPE
+load1 << button2.DB_MAX_OUTPUT_PORT_TYPE
+load2 << button2.DB_MAX_OUTPUT_PORT_TYPE
+reset1 << button0.DB_MAX_OUTPUT_PORT_TYPE
+reset2 << button0.DB_MAX_OUTPUT_PORT_TYPE
 data_in => LED[9]~reg0.DATAIN
 clk_in => LED[0]~reg0.CLK
 clk_in => LED[1]~reg0.CLK
@@ -78,7 +78,7 @@ clk_in => LED[7]~reg0.CLK
 clk_in => LED[8]~reg0.CLK
 clk_in => LED[9]~reg0.CLK
 load_in => LED[0].IN1
-data_out <= LED[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out << LED[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 switch[0] => LED[0]~reg0.ADATA
 switch[1] => LED[1]~reg0.ADATA
 switch[2] => LED[2]~reg0.ADATA

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_in'
+Slack : -3.055
+TNS   : -27.777
+
+Type  : Slow 1200mV 85C Model Setup 'clk_org'
+Slack : -2.052
+TNS   : -28.580
+
+Type  : Slow 1200mV 85C Model Hold 'clk_in'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_org'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_in'
+Slack : -0.863
+TNS   : -7.728
+
+Type  : Slow 1200mV 85C Model Removal 'clk_in'
+Slack : 0.563
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_org'
+Slack : -3.000
+TNS   : -26.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'load_in'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_in'
+Slack : -2.570
+TNS   : -23.316
+
+Type  : Slow 1200mV 0C Model Setup 'clk_org'
+Slack : -1.720
+TNS   : -22.730
+
+Type  : Slow 1200mV 0C Model Hold 'clk_in'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_org'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_in'
+Slack : -0.709
+TNS   : -6.242
+
+Type  : Slow 1200mV 0C Model Removal 'clk_in'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_org'
+Slack : -3.000
+TNS   : -26.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'load_in'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_in'
+Slack : -1.400
+TNS   : -12.475
+
+Type  : Fast 1200mV 0C Model Setup 'clk_org'
+Slack : -0.733
+TNS   : -7.084
+
+Type  : Fast 1200mV 0C Model Hold 'clk_in'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_org'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_in'
+Slack : -0.623
+TNS   : -5.827
+
+Type  : Fast 1200mV 0C Model Removal 'clk_in'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_org'
+Slack : -3.000
+TNS   : -27.452
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -15.434
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'load_in'
+Slack : -3.000
+TNS   : -3.062
+
+------------------------------------------------------------

@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'div_counter[17]'
+Slack : -2.241
+TNS   : -25.869
+
+Type  : Slow 1200mV 85C Model Setup 'look_button'
+Slack : -1.570
+TNS   : -173.862
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -1.376
+TNS   : -13.234
+
+Type  : Slow 1200mV 85C Model Setup 'start_button'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.210
+TNS   : -0.210
+
+Type  : Slow 1200mV 85C Model Hold 'look_button'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'start_button'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'div_counter[17]'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'look_button'
+Slack : -3.000
+TNS   : -147.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'start_button'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div_counter[17]'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Slow 1200mV 0C Model Setup 'div_counter[17]'
+Slack : -2.009
+TNS   : -23.141
+
+Type  : Slow 1200mV 0C Model Setup 'look_button'
+Slack : -1.327
+TNS   : -143.663
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.090
+TNS   : -9.768
+
+Type  : Slow 1200mV 0C Model Setup 'start_button'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.182
+TNS   : -0.182
+
+Type  : Slow 1200mV 0C Model Hold 'look_button'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'start_button'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'div_counter[17]'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'look_button'
+Slack : -3.000
+TNS   : -147.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'start_button'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div_counter[17]'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Setup 'div_counter[17]'
+Slack : -1.334
+TNS   : -15.152
+
+Type  : Fast 1200mV 0C Model Setup 'look_button'
+Slack : -0.399
+TNS   : -32.042
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.347
+TNS   : -1.043
+
+Type  : Fast 1200mV 0C Model Setup 'start_button'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.119
+TNS   : -0.119
+
+Type  : Fast 1200mV 0C Model Hold 'look_button'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'start_button'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div_counter[17]'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'look_button'
+Slack : -3.000
+TNS   : -170.532
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -22.097
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'start_button'
+Slack : -3.000
+TNS   : -4.131
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div_counter[17]'
+Slack : -1.000
+TNS   : -14.000
+
+------------------------------------------------------------

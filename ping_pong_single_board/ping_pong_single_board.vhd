@@ -1,3 +1,8 @@
+--------------------------------
+--  00857005 周固廷  作業11-1  --
+--      單板子的桌球      --
+--------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;

@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity ping_pong_slave is
+port(
+	B_score:in std_logic_vector(3 downto 0);
+	B_LED_control:in std_logic_vector(3 downto 0 );
+	system_B_button:in std_logic;
+	B_button_out:out std_logic;
+	LED:buffer std_logic_vector(9 downto 0);
+	HEX0:out std_logic_vector(7 downto 0);
+);
+end ping_pong_slave;
+
+
+architecture ping_pong of ping_pong_slave is
+begin
+	B_button_out <= system_B_button;
+	
+end ping_pong;

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jan 13 18:40:08 2022
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
+Revision Name : slot_machine_four_digit
+Top-level Entity Name : slot_machine_four_digit
+Family : Cyclone III
+Total logic elements : 481
+    Total combinational functions : 472
+    Dedicated logic registers : 158
+Total registers : 158
+Total pins : 50
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

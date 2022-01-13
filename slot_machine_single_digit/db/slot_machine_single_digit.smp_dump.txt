@@ -1,0 +1,11 @@
+
+State Machine - |slot_machine_single_digit|current_state
+Name current_state.finish current_state.winning current_state.finish_slowdown current_state.slow_slowdown current_state.mid_slowdown current_state.fast_slowdown current_state.spinning current_state.game_ready 
+current_state.game_ready 0 0 0 0 0 0 0 0 
+current_state.spinning 0 0 0 0 0 0 1 1 
+current_state.fast_slowdown 0 0 0 0 0 1 0 1 
+current_state.mid_slowdown 0 0 0 0 1 0 0 1 
+current_state.slow_slowdown 0 0 0 1 0 0 0 1 
+current_state.finish_slowdown 0 0 1 0 0 0 0 1 
+current_state.winning 0 1 0 0 0 0 0 1 
+current_state.finish 1 0 0 0 0 0 0 1 

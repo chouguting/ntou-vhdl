@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity generic_up_down_counter is
+generic(limit:integer range 1 to 16);
+port(
+	clk:in std_logic;
+	reset:in std_logic;
+	up_or_down:in std_logic;  --1:up 0:down
+	num_out:out std_logic_vector(3 downto 0)
+);
+end generic_up_down_counter;

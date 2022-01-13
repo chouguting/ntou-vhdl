@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.453
+TNS   : -436.971
+
+Type  : Slow 1200mV 85C Model Setup 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -3.129
+TNS   : -11.757
+
+Type  : Slow 1200mV 85C Model Setup 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -3.126
+TNS   : -11.488
+
+Type  : Slow 1200mV 85C Model Setup 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -3.030
+TNS   : -11.358
+
+Type  : Slow 1200mV 85C Model Setup 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -2.493
+TNS   : -8.950
+
+Type  : Slow 1200mV 85C Model Setup 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -1.550
+TNS   : -1.814
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.762
+TNS   : -10.859
+
+Type  : Slow 1200mV 85C Model Hold 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -133.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -2.513
+TNS   : -75.760
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -2.393
+TNS   : -72.314
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -2.385
+TNS   : -67.676
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -1.799
+TNS   : -39.935
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.925
+TNS   : -379.907
+
+Type  : Slow 1200mV 0C Model Setup 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -2.712
+TNS   : -9.948
+
+Type  : Slow 1200mV 0C Model Setup 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -2.697
+TNS   : -10.160
+
+Type  : Slow 1200mV 0C Model Setup 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -2.609
+TNS   : -9.784
+
+Type  : Slow 1200mV 0C Model Setup 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -2.131
+TNS   : -7.618
+
+Type  : Slow 1200mV 0C Model Setup 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -1.264
+TNS   : -1.264
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.699
+TNS   : -10.661
+
+Type  : Slow 1200mV 0C Model Hold 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -133.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -2.256
+TNS   : -67.157
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -2.161
+TNS   : -60.129
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -2.155
+TNS   : -64.050
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -1.551
+TNS   : -35.300
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.997
+TNS   : -188.775
+
+Type  : Fast 1200mV 0C Model Setup 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -1.261
+TNS   : -4.575
+
+Type  : Fast 1200mV 0C Model Setup 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -1.261
+TNS   : -4.461
+
+Type  : Fast 1200mV 0C Model Setup 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -1.226
+TNS   : -4.434
+
+Type  : Fast 1200mV 0C Model Setup 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -0.933
+TNS   : -3.145
+
+Type  : Fast 1200mV 0C Model Setup 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -0.507
+TNS   : -0.507
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.499
+TNS   : -10.736
+
+Type  : Fast 1200mV 0C Model Hold 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -139.776
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div0|div_counter[22]'
+Slack : -1.367
+TNS   : -35.685
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div1|div_counter[22]'
+Slack : -1.221
+TNS   : -33.948
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div2|div_counter[22]'
+Slack : -1.220
+TNS   : -32.306
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:div3|div_counter[22]'
+Slack : -1.000
+TNS   : -19.311
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dynamic_clk_divider:system_clk_divider|div_counter[25]'
+Slack : -1.000
+TNS   : -12.000
+
+------------------------------------------------------------

@@ -1,3 +1,7 @@
+--------------------------------
+--   00857005 周固廷  作業12-1  --
+--       一個數字的拉霸機        --
+--------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -70,7 +74,7 @@ begin
 			end if;
 			
 			if(can_count = '1') then
-				if(game_number = x"2") then
+				if(game_number = x"9") then
 					game_number <= x"0";
 				else
 					game_number <= game_number + 1;

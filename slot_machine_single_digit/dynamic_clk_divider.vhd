@@ -1,3 +1,8 @@
+--------------------------------
+--   00857005 周固廷  作業12-1  --
+--         動態除頻器           --
+--------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -47,10 +52,8 @@ begin
 						div_counter(23) when Hz_select = x"5" else
 						div_counter(23) when Hz_select = x"4" else
 						div_counter(23) when Hz_select = x"3" else
-					   div_counter(24) when Hz_select = x"2" else
+					    div_counter(24) when Hz_select = x"2" else
 						div_counter(25) when Hz_select = x"1" else
 						'0' when Hz_select = x"0" else
-						div_counter(22);
-	
-	
+						div_counter(22);	
 end divider;

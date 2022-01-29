@@ -1,3 +1,7 @@
+--------------------------------
+--   00857005 周固廷  作業12-2  --
+--       四個數字的拉霸機        --
+--------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -58,13 +62,13 @@ architecture machine of slot_machine_four_digit is
 begin
 	system_clk_divider: dynamic_clk_divider port map(reset,clk,x"1",clk_1Hz);
 	
-	counter3: generic_up_down_counter generic map(1) 
+	counter3: generic_up_down_counter generic map(9) 
 												port map(clk_HEX3,reset,up_down_switch(3),counter_HEX3);
-	counter2: generic_up_down_counter generic map(1) 
+	counter2: generic_up_down_counter generic map(9) 
 												port map(clk_HEX2,reset,up_down_switch(2),counter_HEX2);
-	counter1: generic_up_down_counter generic map(1) 
+	counter1: generic_up_down_counter generic map(9) 
 												port map(clk_HEX1,reset,up_down_switch(1),counter_HEX1);
-	counter0: generic_up_down_counter generic map(1) 
+	counter0: generic_up_down_counter generic map(9) 
 												port map(clk_HEX0,reset,up_down_switch(0),counter_HEX0);	
 	
 	decoder3: seven_seg_decoder port map(counter_HEX3,HEX3);
